@@ -1,2 +1,1 @@
-# sysconex-web-new
-this is for sysconex website
+https://github.com/hasanmasudnet/averto-next.git
