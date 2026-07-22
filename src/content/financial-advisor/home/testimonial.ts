@@ -20,7 +20,7 @@ export const testimonialContent: TestimonialContent = {
       name: "Jessica Luise",
       date: "09/07/24",
       content:
-        "Working with the team at averto has been a game-changer for my financial future. Johnathan and Sarah provided personalized advice that helped me optimize my retirement plan.",
+        "Working with the team at sysconex has been a game-changer for my financial future. Johnathan and Sarah provided personalized advice that helped me optimize my retirement plan.",
       rating: {
         value: 4.5,
         maxValue: 5,

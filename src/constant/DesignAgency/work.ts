@@ -12,9 +12,9 @@ export interface WorkData {
 }
 const workData: WorkData = {
   subtitle: "OUR PORTFOLIO",
-  title: "Experience the Averto effect",
+  title: "Experience the Sysconex effect",
   description:
-    "Our portfolio is a testament to the bold ideas and artistic passion that define Averto.",
+    "Our portfolio is a testament to the bold ideas and artistic passion that define Sysconex.",
   projects: [
     {
       title: "Vision and innovation",

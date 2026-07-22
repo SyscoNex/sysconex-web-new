@@ -26,7 +26,7 @@ export interface TeamData {
 
 const teamData:TeamData = {
   subtitle: "Our Team Members",
-  title: "The minds behind FeAvertoux",
+  title: "The minds behind FeSysconexux",
   cta: {
     text: "Our Members",
     url: "/marketing-agency/team",

@@ -30,7 +30,7 @@ const ContactForm = () => {
                       <span>Email</span>
                     </li>
                     <li>
-                      <a href="mailto:hello@averto.com">hello@averto.com</a>
+                      <a href="mailto:info@sysconex.com">info@sysconex.com</a>
                     </li>
                   </ul>
                 </div>

@@ -23,7 +23,7 @@ const serviceData: IServiceData = {
   subtitle: "Our Services",
   title: "Overview of Web design and improvements",
   description:
-    "Averto, a digital agency crafted by a dedicated team of creatives champions the essence of simplicity and elegance.",
+    "Sysconex, a digital agency crafted by a dedicated team of creatives champions the essence of simplicity and elegance.",
   buttons: [
     {
       href: "/contact",

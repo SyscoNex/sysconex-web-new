@@ -21,7 +21,7 @@ const heroData:HeroData = {
     "Pro Motion",
   ],
   description:
-    "Averto, a digital agency crafted by a dedicated team of creatives champions the essence of simplicity and elegance.",
+    "Sysconex, a digital agency crafted by a dedicated team of creatives champions the essence of simplicity and elegance.",
   button: {
     text: "Let’s Connect",
     url: "/contact",

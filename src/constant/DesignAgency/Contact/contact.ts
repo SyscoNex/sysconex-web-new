@@ -29,8 +29,8 @@ const contactData: IContact = {
   contactInfo: [
     {
       icon: "/assets/imgs/icon/icon-17.webp",
-      label: "example@avertog.com",
-      link: "mailto:example@avertog.com",
+      label: "example@sysconexg.com",
+      link: "mailto:example@sysconexg.com",
     },
     {
       icon: "/assets/imgs/icon/icon-18.webp",

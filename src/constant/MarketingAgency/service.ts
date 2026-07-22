@@ -44,7 +44,7 @@ export interface ServiceData {
       title: "Content Creation",
       number: "/02",
       icon: "/assets/imgs/icon/icon-28.webp",
-      desc: "At Averto, we specialize in delivering high-quality, engage, and purpose-driven content tailored to your brand’s needs.",
+      desc: "At Sysconex, we specialize in delivering high-quality, engage, and purpose-driven content tailored to your brand’s needs.",
       features: [
         "Social Media Content",
         "Diverse Content Formats",

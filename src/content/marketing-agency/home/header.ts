@@ -12,7 +12,7 @@ import { HeaderContent } from "@/types/marketing-agency/header";
 export const headerContent: HeaderContent = {
   logo: {
     src: Logo,
-    alt: "averto Logo",
+    alt: "sysconex Logo",
     href: "/marketing-agency-v2",
   },
   navigation: [

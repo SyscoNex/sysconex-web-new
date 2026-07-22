@@ -159,8 +159,8 @@ export const headerContent: HeaderContent = {
       {
         id: "2",
         title: "Contact Mail",
-        value: "info.averto@demo.com",
-        href: "mailto:info.averto@demo.com",
+        value: "contact@sysconex.com",
+        href: "mailto:contact@sysconex.com",
         icon: "bi bi-envelope",
       },
       {
@@ -171,7 +171,7 @@ export const headerContent: HeaderContent = {
       },
     ],
     copyright: {
-      brand: "@averto",
+      brand: "@sysconex",
       text: ".Copyright © 2024",
     },
   },

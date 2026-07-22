@@ -24,7 +24,7 @@ export const servicesContent: ServicesContent = {
         { name: "Holistic Planning", href: "#" },
       ],
       description:
-        "For businesses, averto offers specialized financial advisory services that include cash flow management, business growth strategies, and financial risk assessment.",
+        "For businesses, sysconex offers specialized financial advisory services that include cash flow management, business growth strategies, and financial risk assessment.",
       buttonText: "Discover More",
       buttonHref: "/financial-advisor/service-details",
       image: serviceImage1,

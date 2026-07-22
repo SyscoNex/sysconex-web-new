@@ -123,7 +123,7 @@ const sidebar: SidebarData = {
   ],
   contact: {
     phone: { text: "+2230 6965 119", href: "tel:+22306965119" },
-    email: { text: "averto@gmail.com", href: "mailto:averto@gmail.com" },
+    email: { text: "contact@sysconex.com", href: "mailto:contact@sysconex.com" },
     address: "Avenue de Roma 1588, Lisboa",
   },
   social: [

@@ -4,9 +4,9 @@ export const faqContent: FaqContent = {
   items: [
     {
       id: "1",
-      question: "What is averto?",
+      question: "What is sysconex?",
       answer:
-        "averto is a creative agency that offers a sleek and modern HTML template designed for creative agencies and businesses. Our template features a clean layout and intuitive navigation, providing a professional platform to showcase your portfolio and services.",
+        "sysconex is a creative agency that offers a sleek and modern HTML template designed for creative agencies and businesses. Our template features a clean layout and intuitive navigation, providing a professional platform to showcase your portfolio and services.",
       delay: ".2",
       isDefaultOpen: true,
     },
@@ -21,7 +21,7 @@ export const faqContent: FaqContent = {
       id: "3",
       question: "How can I get in touch with your agency?",
       answer:
-        "You can contact us through our website's contact form, email us at averto@gmail.com, or call us at [your phone number]. We're also available on our social media channels.",
+        "You can contact us through our website's contact form, email us at contact@sysconex.com, or call us at +94 11 123 4567. We're also available on our social media channels.",
       delay: ".5",
     },
     {

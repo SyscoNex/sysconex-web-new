@@ -62,14 +62,14 @@ export const footerContent = {
       contactInfo: {
         title: "Contact Us",
         links: [
-          { name: "hello@averto.com", href: "mailto:hello@averto.com" },
+          { name: "contact@sysconex.com", href: "mailto:contact@sysconex.com" },
           { name: "+(405) 123-456", href: "tel:+405123456" },
         ],
       },
     },
   },
   bottomSection: {
-    copyright: "Copyright 2024 averto. Inc.",
+    copyright: "Copyright 2024 sysconex. Inc.",
     location: "17 York Street London, United Kingdom W1W7AB",
   },
 };

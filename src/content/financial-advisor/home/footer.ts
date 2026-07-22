@@ -81,7 +81,7 @@ export const footerContent: FooterContent = {
     privacyPolicyText: "privacy policy",
   },
   bottom: {
-    copyrightText: "Copyright {year} averto. Inc.",
+    copyrightText: "Copyright {year} sysconex. Inc.",
     currentYear: new Date().getFullYear(),
   },
 };

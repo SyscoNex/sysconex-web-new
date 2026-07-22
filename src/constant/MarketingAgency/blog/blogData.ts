@@ -13,21 +13,21 @@ const blogData: IBlog[] = [
   {
     id: 1,
     tag: "BRANDING",
-    title: "Averto’s impact around all over the world",
+    title: "Sysconex’s impact around all over the world",
     date: "February 12, 2025",
     comments: 0,
     image: "/assets/imgs/blog/blog-22.webp",
-    text: `At Averto Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
+    text: `At Sysconex Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
     url: "/marketing-agency/blog-details",
   },
   {
     id: 2,
     tag: "BRANDING",
-    title: "How Averto transform concepts into captivating visuals",
+    title: "How Sysconex transform concepts into captivating visuals",
     date: "February 12, 2025",
     comments: 0,
     image: "/assets/imgs/blog/blog-23.webp",
-    text: `At Averto Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
+    text: `At Sysconex Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
     url: "/marketing-agency/blog-details",
   },
   {
@@ -37,7 +37,7 @@ const blogData: IBlog[] = [
     date: "February 12, 2025",
     comments: 0,
     image: "/assets/imgs/blog/blog-24.webp",
-    text: `At Averto Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
+    text: `At Sysconex Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
     url: "/marketing-agency/blog-details",
   },
   {
@@ -47,7 +47,7 @@ const blogData: IBlog[] = [
     date: "February 12, 2025",
     comments: 0,
     image: "/assets/imgs/blog/blog-25.webp",
-    text: `At Averto Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
+    text: `At Sysconex Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.`,
     url: "/marketing-agency/blog-details",
   },
 ];

@@ -7,7 +7,7 @@ import type { SidebarData } from "@/types/common/sidebar";
 export const defaultSidebarData: SidebarData = {
   logo: {
     image: logoImage,
-    alt: "averto",
+    alt: "sysconex",
     href: "/digital-collective",
   },
   closeIcon: "bi bi-x-lg",
@@ -101,8 +101,8 @@ export const defaultSidebarData: SidebarData = {
       {
         icon: MailIconThree,
         title: "Contact Mail",
-        value: "info.averto@demo.com",
-        href: "mailto:info.averto@demo.com",
+        value: "contact@sysconex.com",
+        href: "mailto:contact@sysconex.com",
       },
       {
         icon: PinIconTwo,
@@ -112,7 +112,7 @@ export const defaultSidebarData: SidebarData = {
       },
     ],
     copyright: {
-      brand: "@averto",
+      brand: "@sysconex",
       text: `.Copyright © ${new Date().getFullYear()}`,
     },
   },
@@ -121,7 +121,7 @@ export const defaultSidebarData: SidebarData = {
 export const marketingAgencyV2SidebarData: SidebarData = {
   logo: {
     image: logoImage,
-    alt: "averto",
+    alt: "sysconex",
     href: "/marketing-agency-v2",
   },
   closeIcon: "bi bi-x-lg",
@@ -221,8 +221,8 @@ export const marketingAgencyV2SidebarData: SidebarData = {
       {
         icon: MailIconThree,
         title: "Contact Mail",
-        value: "info.averto@demo.com",
-        href: "mailto:info.averto@demo.com",
+        value: "contact@sysconex.com",
+        href: "mailto:contact@sysconex.com",
       },
       {
         icon: PinIconTwo,
@@ -232,7 +232,7 @@ export const marketingAgencyV2SidebarData: SidebarData = {
       },
     ],
     copyright: {
-      brand: "@averto",
+      brand: "@sysconex",
       text: `.Copyright © ${new Date().getFullYear()}`,
     },
   },
@@ -240,7 +240,7 @@ export const marketingAgencyV2SidebarData: SidebarData = {
 export const financialAdvisorSidebarData: SidebarData = {
   logo: {
     image: logoImage,
-    alt: "averto",
+    alt: "sysconex",
     href: "/financial-advisor",
   },
   closeIcon: "bi bi-x-lg",
@@ -334,8 +334,8 @@ export const financialAdvisorSidebarData: SidebarData = {
       {
         icon: MailIconThree,
         title: "Contact Mail",
-        value: "info.averto@demo.com",
-        href: "mailto:info.averto@demo.com",
+        value: "contact@sysconex.com",
+        href: "mailto:contact@sysconex.com",
       },
       {
         icon: PinIconTwo,
@@ -345,7 +345,7 @@ export const financialAdvisorSidebarData: SidebarData = {
       },
     ],
     copyright: {
-      brand: "@averto",
+      brand: "@sysconex",
       text: `.Copyright © ${new Date().getFullYear()}`,
     },
   },

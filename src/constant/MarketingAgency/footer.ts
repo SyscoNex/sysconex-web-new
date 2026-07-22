@@ -93,8 +93,8 @@ const footerData: IFooterData = {
   },
   copyright: {
     text: "Copyright © 2025",
-    author: "Pixavation",
-    url: "https://themeforest.net/user/pixavation",
+    author: "Sysconex",
+    url: "https://themeforest.net/user/sysconex",
     links: [{ label: "Terms & Conditions", url: "#" }],
   },
 };

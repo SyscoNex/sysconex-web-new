@@ -13,7 +13,7 @@ export const testimonialData: TypeTestimonialListProps = {
       id: "1",
       rating: 5,
       quote:
-        "Working with averto has been a game-changer for our business. Their innovative digital strategies and comprehensive marketing solutions helped us reach a wider audience.",
+        "Working with sysconex has been a game-changer for our business. Their innovative digital strategies and comprehensive marketing solutions helped us reach a wider audience.",
       authorName: "Sonick Johnson",
       authorPosition: "Senior Web Developer",
       authorAvatarSrc: testimonialAuthor1,
@@ -23,7 +23,7 @@ export const testimonialData: TypeTestimonialListProps = {
       id: "2",
       rating: 5,
       quote:
-        "averto transformed our digital presence. They revamped our website and optimized our social media channels, leading to a significant boost in our brand visibility",
+        "sysconex transformed our digital presence. They revamped our website and optimized our social media channels, leading to a significant boost in our brand visibility",
       authorName: "Natasha Emilian",
       authorPosition: "Co founder of Square Space",
       authorAvatarSrc: testimonialAuthor2,
@@ -33,7 +33,7 @@ export const testimonialData: TypeTestimonialListProps = {
       id: "3",
       rating: 5,
       quote:
-        "Expertise and support provided by averto have been instrumental in the success of our online campaigns. They took the time to understand our brand crafted a tailored approach.",
+        "Expertise and support provided by sysconex have been instrumental in the success of our online campaigns. They took the time to understand our brand crafted a tailored approach.",
       authorName: "David Collins",
       authorPosition: "CEO of ABC Tech",
       authorAvatarSrc: testimonialAuthor3,
@@ -43,7 +43,7 @@ export const testimonialData: TypeTestimonialListProps = {
       id: "4",
       rating: 5,
       quote:
-        "Working with averto has been a game-changer for our business. Their innovative digital strategies and comprehensive marketing solutions helped us reach a wider audience.",
+        "Working with sysconex has been a game-changer for our business. Their innovative digital strategies and comprehensive marketing solutions helped us reach a wider audience.",
       authorName: "Sonick Johnson",
       authorPosition: "Senior Web Developer",
       authorAvatarSrc: testimonialAuthor1,
@@ -53,7 +53,7 @@ export const testimonialData: TypeTestimonialListProps = {
       id: "5",
       rating: 5,
       quote:
-        "averto transformed our digital presence. They revamped our website and optimized our social media channels, leading to a significant boost in our brand visibility",
+        "sysconex transformed our digital presence. They revamped our website and optimized our social media channels, leading to a significant boost in our brand visibility",
       authorName: "Natasha Emilian",
       authorPosition: "Co founder of Square Space",
       authorAvatarSrc: testimonialAuthor2,
@@ -63,7 +63,7 @@ export const testimonialData: TypeTestimonialListProps = {
       id: "6",
       rating: 5,
       quote:
-        "Expertise and support provided by averto have been instrumental in the success of our online campaigns. They took the time to understand our brand crafted a tailored approach.",
+        "Expertise and support provided by sysconex have been instrumental in the success of our online campaigns. They took the time to understand our brand crafted a tailored approach.",
       authorName: "David Collins",
       authorPosition: "CEO of ABC Tech",
       authorAvatarSrc: testimonialAuthor3,

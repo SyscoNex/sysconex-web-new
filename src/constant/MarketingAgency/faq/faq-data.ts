@@ -5,12 +5,12 @@ export interface IFaq {
 
 const faqData: IFaq[] = [
   {
-    question: "What services does Averto offer you?",
+    question: "What services does Sysconex offer you?",
     answer:
       "People know what an FAQ is, so make that your page title. Don’t over complicate things by calling it something else.",
   },
   {
-    question: "How can I get started with Averto?",
+    question: "How can I get started with Sysconex?",
     answer:
       "Start by contacting us through our website, and we’ll guide you step-by-step through the process.",
   },

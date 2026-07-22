@@ -20,17 +20,17 @@ export interface BlogData {
 }
 
 export const blogSingleData: BlogData = {
-  title: "Averto’s impact around all over the world",
+  title: "Sysconex’s impact around all over the world",
   date: "February 12, 2025",
   commentsCount: 3,
   category: "BRANDING",
-  introText:`Averto, a creative studio with its roots in innovation, design, and storytelling, is one such entity. With its commitment to excellence, Averto is making waves not just locally but across the globe.`,
+  introText:`Sysconex, a creative studio with its roots in innovation, design, and storytelling, is one such entity. With its commitment to excellence, Sysconex is making waves not just locally but across the globe.`,
   coverImage: "/assets/imgs/blog/blog-22.webp",
   sections: [
     {
       title: "Blog Overview",
       content: [
-        "At Averto Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.",
+        "At Sysconex Creative Studio, we believe that creativity knows no borders. What started as a humble creative agency has grown into a global presence, delivering innovative design and branding solutions to clients from all corners of the world.",
         "In a world saturated with digital content, only a few creative studios manage to break through the noise and leave a lasting impression.",
       ],
       gallery: [
@@ -41,8 +41,8 @@ export const blogSingleData: BlogData = {
     {
       title: "Innovative Approaches to Design",
       content: [
-        "One of Averto's key strengths is its ability to adapt to the cultural and creative demands of various markets. By understanding regional nuances, cultural aesthetics, and market trends",
-        "Averto crafts designs that are not only visually stunning but also culturally relevant. This adaptability has earned Averto a reputation for being a studio that can connect with audiences anywhere in the world.",
+        "One of Sysconex's key strengths is its ability to adapt to the cultural and creative demands of various markets. By understanding regional nuances, cultural aesthetics, and market trends",
+        "Sysconex crafts designs that are not only visually stunning but also culturally relevant. This adaptability has earned Sysconex a reputation for being a studio that can connect with audiences anywhere in the world.",
       ],
       quote: {
         text: "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime place at facere possimus!",
@@ -52,8 +52,8 @@ export const blogSingleData: BlogData = {
     {
       title: "Creativity Without Borders",
       content: [
-        "Averto’s impact on the world is undeniable. From its international collaborations to its culturally sensitive designs, the studio is proving that creativity knows no borders.",
-        "As Averto continues to grow and innovate, its influence will only expand, solidifying its position as a global leader in the creative industry.",
+        "Sysconex’s impact on the world is undeniable. From its international collaborations to its culturally sensitive designs, the studio is proving that creativity knows no borders.",
+        "As Sysconex continues to grow and innovate, its influence will only expand, solidifying its position as a global leader in the creative industry.",
       ],
     },
   ],
@@ -74,7 +74,7 @@ export const comments: Comment[] = [
     date: "16 Feb, 2025",
     avatar: "/assets/imgs/client/client-4.webp",
     rating: 5,
-    message: "As a designer, I appreciate Averto’s commitment to sustainability and inclusivity. It is great to see a creative studio making such a positive impact globally!",
+    message: "As a designer, I appreciate Sysconex’s commitment to sustainability and inclusivity. It is great to see a creative studio making such a positive impact globally!",
   },
   {
     name: "Ahmed Al-Badr",
@@ -88,6 +88,6 @@ export const comments: Comment[] = [
     date: "12 Feb, 2025",
     avatar: "/assets/imgs/client/client-6.webp",
     rating: 5,
-    message: "Averto’s approach to global design is truly inspiring! I love how they manage incorporate cultural nuances their work while still keeping things modern and fresh!",
+    message: "Sysconex’s approach to global design is truly inspiring! I love how they manage incorporate cultural nuances their work while still keeping things modern and fresh!",
   },
 ];

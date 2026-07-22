@@ -30,7 +30,7 @@ const blogData:BlogData = {
       tag: "BRANDING",
       image: "/assets/imgs/blog/blog-1.webp",
       date: "February 12, 2025",
-      title: "Averto’s impact around all over the world",
+      title: "Sysconex’s impact around all over the world",
       url: "/digital-agency/blog-details",
     },
     {

@@ -12,7 +12,7 @@ import MegaMenuHome9 from "@/assets/images/mega-menu/mega-menu-home-9.png";
 export const headerContent: HeaderContent = {
   logo: {
     image: Logo,
-    alt: "averto Logo",
+    alt: "sysconex Logo",
     href: "/financial-advisor",
   },
   navigation: [

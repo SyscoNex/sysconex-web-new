@@ -2,7 +2,7 @@ import { FaqContent } from "@/types/financial-advisor/faq";
 
 export const faqContent: FaqContent = {
   sectionHeader: {
-    title: "Frequently Asked Questions about averto",
+    title: "Frequently Asked Questions about sysconex",
     titleAnimationDelay: ".2",
     buttonText: "Get Free Consultation",
     buttonUrl: "/financial-advisor/contact",

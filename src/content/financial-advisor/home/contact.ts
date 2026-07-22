@@ -8,7 +8,7 @@ export const contactContent: ContactContent = {
   infoCards: [
     {
       id: "contact-email",
-      title: "support@avertoagency.com",
+      title: "support@sysconex.com",
       description: "Mon - Fri from 10 AM to 7PM EST",
       iconKey: "email",
       animationDelay: ".15",
@@ -23,7 +23,7 @@ export const contactContent: ContactContent = {
     {
       id: "contact-location",
       title: "69132 Legros Way, Maxworth 92",
-      description: "averto Agency Headquarter",
+      description: "sysconex Agency Headquarter",
       iconKey: "location",
       animationDelay: ".35",
     },

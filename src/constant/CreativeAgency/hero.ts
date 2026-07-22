@@ -19,9 +19,9 @@ export interface HeroData {
 const hero:HeroData = {
   title: "Unlock the Future of",
   highlightedText: "Software",
-  subtitle: "- Start with Averto.",
+  subtitle: "- Start with Sysconex.",
   description:
-    "Averto, a digital agency crafted by a dedicated team of creatives champions the essence of simplicity and elegance.",
+    "Sysconex, a digital agency crafted by a dedicated team of creatives champions the essence of simplicity and elegance.",
   cta: {
     text: "Let’s Connect",
     href: "/creative-agency/contact",

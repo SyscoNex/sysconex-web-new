@@ -61,8 +61,8 @@ const footerData: FooterData = {
   ],
   copyright: {
     year: 2025,
-    text: "Pixavation",
-    link: "https://themeforest.net/user/pixavation",
+    text: "Sysconex",
+    link: "https://themeforest.net/user/sysconex",
   },
 };
 

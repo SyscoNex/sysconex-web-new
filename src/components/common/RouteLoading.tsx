@@ -54,7 +54,7 @@ const RouteLoading = () => {
         <path ref={svgRef} d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
       </svg>
       <h5 ref={textRef} className="preloader-text">
-        averto
+        sysconex
       </h5>
     </div>
   );

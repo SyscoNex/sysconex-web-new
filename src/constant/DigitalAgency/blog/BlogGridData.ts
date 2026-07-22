@@ -8,7 +8,7 @@ export interface IBlogList {
 
 const blogData: IBlogList[] = [
   {
-    title: "Averto’s impact around all over the world",
+    title: "Sysconex’s impact around all over the world",
     date: "February 12, 2025",
     tag: "BRANDING",
     image: "/assets/imgs/blog/blog-1.webp",
@@ -29,14 +29,14 @@ const blogData: IBlogList[] = [
     url: "/digital-agency/blog-details",
   },
   {
-    title: "The Art of Creative Storytelling at Averto",
+    title: "The Art of Creative Storytelling at Sysconex",
     date: "February 12, 2025",
     tag: "BRANDING",
     image: "/assets/imgs/blog/blog-16.webp",
     url: "/digital-agency/blog-details",
   },
   {
-    title: "How Averto Transforms Concepts into Captivating Visuals",
+    title: "How Sysconex Transforms Concepts into Captivating Visuals",
     date: "January 20, 2025",
     tag: "DESIGN",
     image: "/assets/imgs/blog/blog-17.webp",
@@ -57,7 +57,7 @@ const blogData: IBlogList[] = [
     url: "/digital-agency/blog-details",
   },
   {
-    title: "How Averto helps businesses stand out with unique designs",
+    title: "How Sysconex helps businesses stand out with unique designs",
     date: "January 20, 2025",
     tag: "DESIGN",
     image: "/assets/imgs/blog/blog-20.webp",

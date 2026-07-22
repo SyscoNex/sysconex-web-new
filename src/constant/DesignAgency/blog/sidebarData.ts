@@ -39,7 +39,7 @@ export const recentBlogs: IRecentBlog[] = [
     url: "/design-agency/blog-details",
   },
   {
-    title: "The Art of Creative Storytelling at Averto",
+    title: "The Art of Creative Storytelling at Sysconex",
     date: "February 12, 2025",
     image: "/assets/imgs/blog/blog-16.webp",
     url: "/design-agency/blog-details",

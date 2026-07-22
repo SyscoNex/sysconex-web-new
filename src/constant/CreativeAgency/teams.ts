@@ -13,7 +13,7 @@ export interface TeamData {
 const teamData: TeamData[] = [
   {
     name: 'Liam Thompson',
-    role: 'Creative Director, Averto',
+    role: 'Creative Director, Sysconex',
     shortRole: 'Creative Director',
     image: '/assets/imgs/team/team-7.webp',
     socials: {
@@ -24,7 +24,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Emily Martinez',
-    role: 'Project Manager, Averto',
+    role: 'Project Manager, Sysconex',
     shortRole: 'Project Manager',
     image: '/assets/imgs/team/team-8.webp',
     socials: {
@@ -35,7 +35,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Jamie Anderson',
-    role: 'UX/UI Designer, Averto',
+    role: 'UX/UI Designer, Sysconex',
     shortRole: 'UX/UI Designer',
     image: '/assets/imgs/team/team-9.webp',
     socials: {
@@ -46,7 +46,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Sophia Carter',
-    role: 'Marketing Strategist, Averto',
+    role: 'Marketing Strategist, Sysconex',
     shortRole: 'Marketing Strategist',
     image: '/assets/imgs/team/team-1.webp',
     socials: {
@@ -57,7 +57,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Daniel Lewis',
-    role: 'Senior Developer, Averto',
+    role: 'Senior Developer, Sysconex',
     shortRole: 'Senior Developer',
     image: '/assets/imgs/team/team-2.webp',
     socials: {
@@ -68,7 +68,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Olivia Bennett',
-    role: 'Content Designer, Averto',
+    role: 'Content Designer, Sysconex',
     shortRole: 'Content Designer',
     image: '/assets/imgs/team/team-3.webp',
     socials: {
@@ -79,7 +79,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Ethan Roberts',
-    role: 'Product Manager, Averto',
+    role: 'Product Manager, Sysconex',
     shortRole: 'Product Manager',
     image: '/assets/imgs/team/team-18.webp',
     socials: {
@@ -90,7 +90,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Isabella Green',
-    role: 'Lead Researcher, Averto',
+    role: 'Lead Researcher, Sysconex',
     shortRole: 'Lead Researcher',
     image: '/assets/imgs/team/team-19.webp',
     socials: {
@@ -101,7 +101,7 @@ const teamData: TeamData[] = [
   },
   {
     name: 'Mason Hill',
-    role: 'Frontend Engineer, Averto',
+    role: 'Frontend Engineer, Sysconex',
     shortRole: 'Frontend Engineer',
     image: '/assets/imgs/team/team-20.webp',
     socials: {

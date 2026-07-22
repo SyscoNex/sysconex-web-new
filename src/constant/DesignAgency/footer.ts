@@ -98,8 +98,8 @@ const footerData:FooterData = {
   ],
   copyright: {
     year: "2025",
-    company: "Pixavation",
-    link: "https://themeforest.net/user/pixavation",
+    company: "Sysconex",
+    link: "https://themeforest.net/user/sysconex",
     terms: { label: "Terms & Conditions", href: "#" },
   },
 };

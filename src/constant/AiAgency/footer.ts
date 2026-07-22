@@ -51,8 +51,8 @@ const footerData: FooterData = {
   ],
   copyright: {
     text: "Powered by",
-    linkText: "pixavation",
-    linkHref: "https://themeforest.net/user/pixavation",
+    linkText: "sysconex",
+    linkHref: "www.sysconex.com",
     navItems: [
       { label: "Blogs", href: "#" },
       { label: "Terms & conditions", href: "#" },

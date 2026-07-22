@@ -9,7 +9,7 @@ export const CONSTANT_FOOTER_DATA: TypeFooterProps = {
   contactInfo: {
     title: "Get in Touch",
     items: [
-      { id: 1, label: "Email", value: "hello@averto.com", icon: "MaiIcon" },
+      { id: 1, label: "Email", value: "contact@sysconex.com", icon: "MaiIcon" },
       { id: 2, label: "Phone", value: "+880 1234567891", icon: "PhoneIcon" },
       {
         id: 3,
