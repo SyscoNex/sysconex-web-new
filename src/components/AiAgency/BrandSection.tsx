@@ -32,16 +32,16 @@ const BrandSection:React.FC<BrandSectionProps> = ({brandSix,data:brandData}) => 
                 slidesPerView={"auto"}
                 loop={true}
                 spaceBetween={0}
-                speed={5000}
+                speed={3000}
                 autoplay={{
                   delay: 1,
                   disableOnInteraction: false,
                 }}
               >
                 {brandData?.brands?.map((brand, index) => (
-                  <SwiperSlide key={index}>
+                  <SwiperSlide key={index} style={{ width: 'auto', padding: '0 25px' }}>
                     <div className="brand-item-2">
-                      <img src={brand?.image} alt={`brand-${index}`} />
+                      <img src={brand?.image} alt={`brand-${index}`} style={{ maxHeight: '50px', width: 'auto', objectFit: 'contain' }} />
                     </div>
                   </SwiperSlide>
                 ))}
