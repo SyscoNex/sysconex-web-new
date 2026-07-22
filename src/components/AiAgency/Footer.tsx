@@ -58,7 +58,7 @@ const FooterOne = () => {
               <ul className="footer-nav-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", gap: "30px", flexWrap: "wrap" }}>
                 <li><Link href="/about" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>About Us</Link></li>
                 <li><Link href="/portfolio" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>Case Studies</Link></li>
-                <li><Link href="/faq" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>FAQ's</Link></li>
+                <li><Link href="/faq" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>FAQ&apos;s</Link></li>
                 <li><Link href="/services" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>Our Services</Link></li>
               </ul>
             </div>

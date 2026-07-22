@@ -5,8 +5,10 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
 
+import { PortfolioItem } from "@/constant/AiAgency/work";
+
 interface IPortfolioSliderProps {
-  data: any[];
+  data: PortfolioItem[];
 }
 const PortfolioSliderSection: React.FC<IPortfolioSliderProps> = ({
   data: portfolioSliderData,
@@ -57,7 +59,7 @@ const PortfolioSliderSection: React.FC<IPortfolioSliderProps> = ({
                 className="work-slider"
               >
                 {portfolioSliderData?.map(
-                  (project: any, index: number) => (
+                  (project: PortfolioItem, index: number) => (
                     <SwiperSlide key={index}>
                       <div className="work-box-9">
                         <div className="thumb">

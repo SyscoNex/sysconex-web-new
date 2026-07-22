@@ -47,10 +47,10 @@ const TermsPage = (): ReactElement => {
             <div className="row">
               <div className="col-12">
                 <p className="mb-4" style={{ fontSize: "1.1rem", lineHeight: "1.7" }}>
-                  Welcome to Sysconex. These terms and conditions outline the rules and regulations for the use of Sysconex's Website and our software development and digital agency services.
+                  Welcome to Sysconex. These terms and conditions outline the rules and regulations for the use of Sysconex&apos;s Website and our software development and digital agency services.
                 </p>
                 <p className="mb-4" style={{ fontSize: "1.1rem", lineHeight: "1.7" }}>
-                  By accessing this website and utilizing our services, we assume you accept these terms and conditions in full. Do not continue to use Sysconex's services if you do not accept all of the terms and conditions stated on this page.
+                  By accessing this website and utilizing our services, we assume you accept these terms and conditions in full. Do not continue to use Sysconex&apos;s services if you do not accept all of the terms and conditions stated on this page.
                 </p>
 
                 <h4 className="mt-5 mb-3" style={{ fontSize: "1.5rem", fontWeight: "600" }}>1. Scope of Services</h4>

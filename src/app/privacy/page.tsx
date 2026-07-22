@@ -87,7 +87,7 @@ const PrivacyPage = (): ReactElement => {
 
                 <h4 className="mt-5 mb-3" style={{ fontSize: "1.5rem", fontWeight: "600" }}>5. Third-Party Privacy Policies</h4>
                 <p className="mb-4" style={{ fontSize: "1.1rem", lineHeight: "1.7" }}>
-                  Sysconex's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+                  Sysconex&apos;s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
                 </p>
 
                 <h4 className="mt-5 mb-3" style={{ fontSize: "1.5rem", fontWeight: "600" }}>6. Your Data Protection Rights</h4>

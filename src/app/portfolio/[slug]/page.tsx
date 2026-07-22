@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
