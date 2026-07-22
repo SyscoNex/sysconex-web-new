@@ -27,7 +27,7 @@ interface HeaderData {
 const headerData: HeaderData = {
   logo: {
     href: "/ai-agency",
-    src: "/assets/imgs/logo/logo.png",
+    src: "/assets/images/logo_black.png",
     alt: "Site Logo",
   },
   menuItems: [
@@ -135,6 +135,7 @@ const Header: React.FC = () => {
                     src={headerData?.logo?.src}
                     alt={headerData?.logo?.alt}
                     className="normal-logo"
+                    style={{ maxHeight: "60px", width: "auto" }}
                   />
                 </Link>
               </div>

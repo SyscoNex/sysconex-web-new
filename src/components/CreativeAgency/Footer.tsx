@@ -49,8 +49,9 @@ const FooterOne = () => {
               <div className="footer-logo">
                 <Link href="/creative-agency">
                   <img
-                    src="/assets/imgs/logo/logo-3-light.png"
+                    src="/assets/images/logo_white.png"
                     alt="site logo"
+                    style={{ maxHeight: "120px", width: "auto" }}
                   />
                 </Link>
               </div>
@@ -62,28 +63,25 @@ const FooterOne = () => {
                     <li>
                       <Link
                         className="draw-underline"
-                        href="mailto:hello@averto.com"
+                        href="mailto:info@sysconex.com"
                       >
-                        hello@averto.com
+                        info@sysconex.com
                       </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="text-wrapper">
                   <p className="text">
-                    We place great emphasis on providing designers, artists, and
-                    brands with templates that elevates their visual
-                    communication.
+                    We place great emphasis on providing innovative digital 
+                    solutions and cutting edge tech services for brands 
+                    around the world.
                   </p>
                 </div>
                 <div className="social-links">
-                  <Link href="#">
+                  <Link href="https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/">
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link>
-                  <Link href="#">
-                    <i className="fa-brands fa-behance"></i>
-                  </Link>
-                  <Link href="#">
+                  <Link href="https://lk.linkedin.com/company/sysconex-solutions">
                     <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
                 </div>
@@ -97,19 +95,20 @@ const FooterOne = () => {
           <div className="copyright-area-inner">
             <div className="copyright-text">
               <p className="text">
+                &copy; {new Date().getFullYear()} Sysconex. All rights reserved. <br />
                 Design & Developed by&nbsp;
-                <Link href="https://themeforest.net/user/pixavation">Pixavation</Link>
+                <Link href="#">Sysconex</Link>
               </p>
             </div>
             <ul className="copyright-nav-list">
               <li>
-                <Link href="#">License</Link>
+                <Link href="/terms">Terms and Conditions</Link>
               </li>
               <li>
-                <Link href="#">Customize</Link>
+                <Link href="/privacy">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="#">Journals</Link>
+                <Link href="/ai-agency/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

@@ -5,14 +5,15 @@ import ProcessSection from "@/components/AiAgency/ProcessSection";
 import ServiceSection from "@/components/AiAgency/ServiceSection";
 import ChooseUsSection from "@/components/AiAgency/common/ChooseUsSection";
 import TestimonialSection from "@/components/AiAgency/TestimonialSection";
-import Footer from "@/components/CreativeAgency/Footer";
-import Header from "@/components/AiAgency/Header";
+import FooterSection from "@/components/AiAgency/FooterSection";
+import Header from "@/components/AiAgency/common/Header";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 // all data
 import processData from "@/constant/AiAgency/process";
 import testimonialData from "@/constant/AiAgency/testimonial";
 import chooseUsData from "@/constant/AiAgency/common/choose-us";
+import footerData from "@/constant/AiAgency/footer";
 
 export const metadata: Metadata = {
   title: "Services || Averto - Creative Digital Agency NextJS Template",
@@ -55,7 +56,7 @@ const Home = (): ReactElement => {
           <ProcessSection data={processData}/>
           <TestimonialSection type="v2" data={testimonialData}/>
         </main>
-        <Footer />
+        <FooterSection data={footerData} />
       </SmoothScroll>
     </div>
   );

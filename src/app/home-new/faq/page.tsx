@@ -3,11 +3,12 @@ import { Metadata } from "next";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import FaqSection from "@/components/AiAgency/Faq/FaqSection";
 import ContactSection from "@/components/AiAgency/Contact/ContactSection";
-import Footer from "@/components/CreativeAgency/Footer";
-import Header from "@/components/AiAgency/Header";
+import FooterSection from "@/components/AiAgency/FooterSection";
+import Header from "@/components/AiAgency/common/Header";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 // all data
+import footerData from "@/constant/AiAgency/footer";
 import contactData from "@/constant/AiAgency/Contact/contact";
 import faqData from "@/constant/AiAgency/faq/faq-data";
 
@@ -50,7 +51,7 @@ const Home = (): ReactElement => {
           <ContactSection data={contactData} />
           <FaqSection type={2} imageSrc={2} data={faqData} />
         </main>
-        <Footer />
+        <FooterSection data={footerData} />
       </SmoothScroll>
     </div>
   );

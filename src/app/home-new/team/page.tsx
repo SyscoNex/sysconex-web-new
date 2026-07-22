@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import TeamSection from "@/components/AiAgency/TeamTwoSection";
 import ProcessSection from "@/components/AiAgency/ProcessSection";
-import Footer from "@/components/CreativeAgency/Footer";
-import Header from "@/components/AiAgency/Header";
+import FooterSection from "@/components/AiAgency/FooterSection";
+import Header from "@/components/AiAgency/common/Header";
 import TestimonialSlider from "@/components/AiAgency/TestimonialSection";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
@@ -13,6 +13,7 @@ import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 import teamData from "@/constant/AiAgency/teamTwo";
 import processData from "@/constant/AiAgency/process";
 import testimonialData from "@/constant/AiAgency/testimonial";
+import footerData from "@/constant/AiAgency/footer";
 
 
 
@@ -56,7 +57,7 @@ const Home = (): ReactElement => {
           <ProcessSection data={processData}/>
           <TestimonialSlider type="v2" data={testimonialData}/>
         </main>
-        <Footer />
+        <FooterSection data={footerData}/>
       </SmoothScroll>
     </div>
   );

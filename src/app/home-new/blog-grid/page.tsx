@@ -2,12 +2,13 @@ import { ReactElement } from "react";
 import { Metadata } from "next";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import BlogGridSection from "@/components/AiAgency/Blog/BlogGridSection";
-import Footer from "@/components/CreativeAgency/Footer";
-import Header from "@/components/AiAgency/Header";
+import FooterSection from "@/components/AiAgency/FooterSection";
+import Header from "@/components/AiAgency/common/Header";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 // all data 
 import blogListData from "@/constant/AiAgency/blog/BlogGridData";
+import footerData from "@/constant/AiAgency/footer";
 
 export const metadata:Metadata = {
   title: "Blog Grid || Averto - Creative Digital Agency NextJS Template",
@@ -48,7 +49,7 @@ const Home = (): ReactElement => {
           <Breadcrumb title="BLOGS" subTitle="Grid" pageName="BLOGS GRID" />
           <BlogGridSection data={blogListData}/>
         </main>
-        <Footer />
+        <FooterSection data={footerData}/>
       </SmoothScroll>
     </div>
   );

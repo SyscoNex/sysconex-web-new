@@ -2,14 +2,15 @@ import { ReactElement } from "react";
 import { Metadata } from "next";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import WorkTwoSection from "@/components/AiAgency/WorkTwoSection";
-import Footer from "@/components/CreativeAgency/Footer";
+import FooterSection from "@/components/AiAgency/FooterSection";
 import TestimonialSlider from "@/components/AiAgency/TestimonialSection";
-import Header from "@/components/AiAgency/Header";
+import Header from "@/components/AiAgency/common/Header";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 // all data 
 import workTwoData from "@/constant/AiAgency/workTwo";
 import testimonialData from "@/constant/AiAgency/testimonial";
+import footerData from "@/constant/AiAgency/footer";
 
 export const metadata:Metadata = {
   title: "Portfolio Slider || Averto - Creative Digital Agency NextJS Template",
@@ -52,7 +53,7 @@ const Home = (): ReactElement => {
           <WorkTwoSection type={3} pageInnerSlider={true} data={workTwoData}/>
           <TestimonialSlider type="v2" data={testimonialData}/>
         </main>
-        <Footer />
+        <FooterSection data={footerData}/>
       </SmoothScroll>
     </div>
   );

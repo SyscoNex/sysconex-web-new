@@ -2,14 +2,15 @@ import { ReactElement } from "react";
 import { Metadata } from "next";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
-import Header from "@/components/AiAgency/Header";
-import Footer from "@/components/CreativeAgency/Footer";
+import Header from "@/components/AiAgency/common/Header";
+import FooterSection from "@/components/AiAgency/FooterSection";
 import PortfolioDetails from "@/components/AiAgency/PortfolioDetails/PortfolioDetails";
 import PortfolioSliderSection from "@/components/AiAgency/PortfolioDetails/PortfolioSliderSection";
 import  portfolioSliderData from "@/constant/AiAgency/PortfolioDetails/portfolio-data";
 
 // all data 
 import portfolioDetailsData from "@/constant/AiAgency/PortfolioDetails/portfolio-details-data";
+import footerData from "@/constant/AiAgency/footer";
 
 export const metadata: Metadata = {
   title: "Portfolio Details || Averto - Creative Digital Agency NextJS Template",
@@ -52,7 +53,7 @@ const Home = (): ReactElement => {
           <PortfolioDetails data={portfolioDetailsData}/>
           <PortfolioSliderSection data={portfolioSliderData}/>
         </main>
-        <Footer />
+        <FooterSection data={footerData}/>
       </SmoothScroll>
     </div>
   );

@@ -4,11 +4,12 @@ import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import ChooseUsSection from "@/components/AiAgency/common/ChooseUsSection";
 import ContactMetaSection from "@/components/AiAgency/Contact/ContactMetaSection";
 import ContactSection from "@/components/AiAgency/Contact/ContactSection";
-import Header from "@/components/AiAgency/Header";
-import Footer from "@/components/CreativeAgency/Footer";
+import Header from "@/components/AiAgency/common/Header";
+import FooterSection from "@/components/AiAgency/FooterSection";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 // all data
+import footerData from "@/constant/AiAgency/footer";
 import contactData from "@/constant/AiAgency/Contact/contact";
 import chooseUsData from "@/constant/AiAgency/common/choose-us";
 
@@ -56,7 +57,7 @@ const Home = (): ReactElement => {
           <ContactSection data={contactData} />
           <ChooseUsSection chooseUSTwo={true} data={chooseUsData} />
         </main>
-        <Footer />
+        <FooterSection data={footerData} />
       </SmoothScroll>
     </div>
   );

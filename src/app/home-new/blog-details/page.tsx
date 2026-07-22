@@ -1,13 +1,14 @@
 import { ReactElement } from "react";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import BlogSingle from "@/components/AiAgency/Blog/BlogSingle";
-import Footer from "@/components/CreativeAgency/Footer";
-import Header from "@/components/AiAgency/Header";
+import FooterSection from "@/components/AiAgency/FooterSection";
+import Header from "@/components/AiAgency/common/Header";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 
 // all data 
 import { blogSingleData, comments } from "@/constant/AiAgency/blog/blogSingleData";
+import footerData from "@/constant/AiAgency/footer";
 
 export const metadata = {
   title: "Blog Details || Averto - Creative Digital Agency NextJS Template",
@@ -53,7 +54,7 @@ const Home = (): ReactElement => {
           />
           <BlogSingle post={blogSingleData} comments={comments} />
         </main>
-        <Footer />
+        <FooterSection data={footerData}/>
       </SmoothScroll>
     </div>
   );
