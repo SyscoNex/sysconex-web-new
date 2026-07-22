@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { ReactElement } from "react";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
@@ -9,15 +10,31 @@ import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 // all data 
 import blogData from "@/constant/AiAgency/blog/blogData";
 
-export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }) => {
-  const { slug } = await params;
-  const blog = blogData.find(b => b.id === slug);
-  if (!blog) return { title: "Blog Not Found" };
-
+export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> => {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug || "";
+  const formattedSlug = slug.replace(/-/g, ' ');
+  const displayTitle = formattedSlug.charAt(0).toUpperCase() + formattedSlug.slice(1);
   return {
-    title: `${blog.title} || Averto - Creative Digital Agency`,
-    description: blog.seoDescription,
-    keywords: blog.tags,
+    title: `${displayTitle} | Sysconex`,
+    description: `Read this in-depth tech article by Sysconex, leading experts in software development and IT solutions in Sri Lanka.`,
+    keywords: [
+      "Sysconex",
+      "Software Development in Sri Lanka",
+      "Digital Agency Sri Lanka",
+      "Software Company Colombo",
+      "Web Development Negombo",
+      "IT Consulting",
+      ...["Sysconex Blog Article","Tech Insights Sri Lanka"],
+      formattedSlug
+    ],
+    creator: "sysconex",
+    openGraph: {
+      images: ['/assets/imgs/logo/logo-dark.webp']
+    },
+    other: {
+      developer: "sysconex",
+    },
   };
 };
 

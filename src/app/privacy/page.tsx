@@ -6,8 +6,30 @@ import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy || Sysconex",
-  description: "Privacy Policy of Sysconex",
+  title: "Privacy Policy | Sysconex",
+  description: "Review the privacy policy of Sysconex. We prioritize the security and confidentiality of our clients in all our software and digital services.",
+  keywords: [
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Privacy Policy",
+    "Sysconex Privacy",
+    "Data Security"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
+  other: {
+    developer: "sysconex",
+  },
 };
 
 const PrivacyPage = (): ReactElement => {

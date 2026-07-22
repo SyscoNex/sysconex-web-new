@@ -19,35 +19,30 @@ import textSliderData from "@/constant/AiAgency/text-slider";
 import blogData from "@/constant/AiAgency/blog";
 
 export const metadata: Metadata = {
-  title: "About Us || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Explore the About Us page of Averto – a modern, high-performance agency template built with Next.js. Meet the team, learn our mission, and discover why Averto is trusted by creative professionals and businesses.",
+  title: "About Us | Sysconex - Leading Tech & Digital Agency",
+  description: "Learn about Sysconex, our mission, and our expert team. We are dedicated to delivering innovative software and digital solutions across Sri Lanka and globally.",
   keywords: [
-    "Averto About Us",
-    "NextJS about page",
-    "agency template",
-    "digital agency",
-    "creative team template",
-    "business website template",
-    "responsive NextJS template",
-    "modern agency design",
-    "SEO friendly template",
-    "professional web agency",
-    "agency team page",
-    "company profile",
-    "NextJS clean UI",
-    "startup website",
-    "web design agency",
-    "agency portfolio",
-    "fast NextJS website",
-    "customizable template",
-    "about page design",
-    "Averto template",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "About Sysconex",
+    "Our Team",
+    "Tech Experts Sri Lanka",
+    "Best Web Developers"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "About Page",
+    developer: "sysconex",
   },
 };
 

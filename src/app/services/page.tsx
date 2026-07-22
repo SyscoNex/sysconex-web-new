@@ -15,27 +15,30 @@ import testimonialData from "@/constant/AiAgency/testimonial";
 import chooseUsData from "@/constant/AiAgency/common/choose-us";
 
 export const metadata: Metadata = {
-  title: "Services || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Showcase your agency’s wide range of services with the Averto Services template. Designed to present offerings clearly and attractively, optimized for performance and SEO in Next.js.",
+  title: "Our Services | Custom Software & Web Development - Sysconex",
+  description: "Explore Sysconex's comprehensive digital services, including UI/UX design, custom web and mobile app development, and enterprise IT consulting in Sri Lanka.",
   keywords: [
-    "Averto services page",
-    "NextJS services template",
-    "agency services overview",
-    "service offerings",
-    "responsive services layout",
-    "SEO optimized services page",
-    "digital agency services",
-    "startup services showcase",
-    "professional service presentation",
-    "service features",
-    "business services template",
-    "modern services page",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Web Development Services",
+    "App Development Colombo",
+    "UI/UX Design Sri Lanka",
+    "Enterprise IT Services"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "Services Page",
+    developer: "sysconex",
   },
 };
 

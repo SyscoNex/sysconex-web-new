@@ -12,6 +12,33 @@ import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 import { notFound } from "next/navigation";
 
+export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> => {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug || "";
+  const formattedSlug = slug.replace(/-/g, ' ');
+  const displayTitle = formattedSlug.charAt(0).toUpperCase() + formattedSlug.slice(1);
+  return {
+    title: `${displayTitle} | Sysconex`,
+    description: `Learn more about this service offering. Sysconex provides specialized software development, design, and IT services tailored for your business in Sri Lanka.`,
+    keywords: [
+      "Sysconex",
+      "Software Development in Sri Lanka",
+      "Digital Agency Sri Lanka",
+      "Software Company Colombo",
+      "Web Development Negombo",
+      "IT Consulting",
+      ...["Sysconex Services","Specialized IT Solutions Colombo"],
+      formattedSlug
+    ],
+    creator: "sysconex",
+    openGraph: {
+      images: ['/assets/imgs/logo/logo-dark.webp']
+    },
+    other: {
+      developer: "sysconex",
+    },
+  };
+};
 // all data
 import processData from "@/constant/AiAgency/process";
 import { servicesData } from "@/constant/AiAgency/service";

@@ -13,31 +13,30 @@ import contactData from "@/constant/AiAgency/Contact/contact";
 import chooseUsData from "@/constant/AiAgency/common/choose-us";
 
 export const metadata: Metadata = {
-  title: "Contact || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Get in touch with the Averto team. Whether you have questions, project inquiries, or want to collaborate, our contact page makes it easy to connect.",
+  title: "Contact Us | Sysconex - Software Development in Sri Lanka",
+  description: "Get in touch with Sysconex for your next big project. We offer expert software development, web design, and IT consulting services in Colombo and Negombo.",
   keywords: [
-    "Averto contact page",
-    "NextJS contact template",
-    "agency contact",
-    "business contact page",
-    "get in touch",
-    "contact form NextJS",
-    "digital agency contact",
-    "startup contact page",
-    "professional contact page",
-    "customer support",
-    "contact details",
-    "business inquiries",
-    "NextJS contact form",
-    "responsive contact page",
-    "contact us",
-    "contact page template",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Contact Sysconex",
+    "Hire Developers Sri Lanka",
+    "Tech Agency Negombo",
+    "Software Quote"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "Contact Page",
+    developer: "sysconex",
   },
 };
 

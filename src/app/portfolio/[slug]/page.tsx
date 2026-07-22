@@ -9,9 +9,33 @@ import PortfolioDetails from "@/components/AiAgency/PortfolioDetails/PortfolioDe
 import PortfolioSliderSection from "@/components/AiAgency/PortfolioDetails/PortfolioSliderSection";
 import { portfolioItems } from "@/constant/AiAgency/work";
 
-export const metadata: Metadata = {
-  title: "Portfolio Details || Sysconex",
-  description: "Dive into detailed case studies and project insights with Sysconex.",
+export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> => {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug || "";
+  const formattedSlug = slug.replace(/-/g, ' ');
+  const displayTitle = formattedSlug.charAt(0).toUpperCase() + formattedSlug.slice(1);
+  return {
+    title: `${displayTitle} | Sysconex`,
+    description: `Discover this featured project in our portfolio. See how Sysconex delivers custom software and web design solutions in Colombo and Negombo.`,
+    keywords: [
+      "Sysconex",
+      "Software Development in Sri Lanka",
+      "Digital Agency Sri Lanka",
+      "Software Company Colombo",
+      "Web Development Negombo",
+      "IT Consulting",
+      "Sysconex Portfolio Project",
+      "Software Case Study Sri Lanka",
+      formattedSlug
+    ],
+    creator: "sysconex",
+    openGraph: {
+      images: ['/assets/imgs/logo/logo-dark.webp']
+    },
+    other: {
+      developer: "sysconex",
+    },
+  };
 };
 
 type Props = {

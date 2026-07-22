@@ -12,30 +12,29 @@ import contactData from "@/constant/AiAgency/Contact/contact";
 import faqData from "@/constant/AiAgency/faq/faq-data";
 
 export const metadata: Metadata = {
-  title: "FAQ || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Find answers to frequently asked questions about Averto, our Next.js templates, and services. Get quick support and clear information to help you make the most of our agency solutions.",
+  title: "FAQ | Sysconex Software Development & IT Services",
+  description: "Find answers to frequently asked questions about our software development lifecycle, web design processes, and digital agency services at Sysconex.",
   keywords: [
-    "Averto FAQ page",
-    "NextJS FAQ template",
-    "agency frequently asked questions",
-    "customer support FAQ",
-    "digital agency FAQ",
-    "startup FAQ page",
-    "common questions",
-    "template support",
-    "NextJS support page",
-    "responsive FAQ design",
-    "professional FAQ layout",
-    "help and support",
-    "template information",
-    "client questions",
-    "FAQ page design",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Sysconex FAQ",
+    "Software Development Questions",
+    "Hiring IT Agency"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "FAQ Page",
+    developer: "sysconex",
   },
 };
 

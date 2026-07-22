@@ -6,8 +6,30 @@ import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions || Sysconex",
-  description: "Terms and Conditions of Sysconex",
+  title: "Terms of Service | Sysconex",
+  description: "Read the terms of service and conditions for engaging with Sysconex for software development and digital agency services.",
+  keywords: [
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Terms of Service",
+    "Sysconex Terms",
+    "Legal"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
+  other: {
+    developer: "sysconex",
+  },
 };
 
 const TermsPage = (): ReactElement => {

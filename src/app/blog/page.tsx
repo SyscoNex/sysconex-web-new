@@ -10,35 +10,30 @@ import Footer from "@/components/AiAgency/Footer";
 import blogData from "@/constant/AiAgency/blog/blogData";
 
 export const metadata: Metadata = {
-  title: "Blog || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Stay updated with the latest insights, design trends, and development news from the Averto team. Our blog covers topics in web design, Next.js development, digital strategy, and agency best practices.",
+  title: "Blog & Insights | Tech News & Updates by Sysconex",
+  description: "Read the latest insights on software engineering, web development trends, and digital innovation from the expert team at Sysconex in Sri Lanka.",
   keywords: [
-    "Averto blog",
-    "NextJS blog template",
-    "web design blog",
-    "agency updates",
-    "developer insights",
-    "modern blog design",
-    "NextJS articles",
-    "UI/UX blog",
-    "creative agency blog",
-    "frontend development blog",
-    "Averto template blog",
-    "technology articles",
-    "NextJS SEO blog",
-    "responsive blog layout",
-    "digital agency news",
-    "design inspiration",
-    "blog page template",
-    "startup blog",
-    "NextJS blog page",
-    "developer tips and tricks",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Tech Blog Sri Lanka",
+    "Software Engineering News",
+    "Web Development Tips",
+    "Tech Trends"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "Blog Page",
+    developer: "sysconex",
   },
 };
 

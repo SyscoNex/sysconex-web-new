@@ -11,30 +11,30 @@ import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 import workTwoData from "@/constant/AiAgency/workTwo";
 import testimonialData from "@/constant/AiAgency/testimonial";
 
-export const metadata:Metadata = {
-  title: "Portfolio Slider || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Display your projects in an interactive and sleek slider format with the Averto Portfolio Slider template. Perfect for creative professionals who want a dynamic, responsive, and SEO-friendly presentation of their work.",
+export const metadata: Metadata = {
+  title: "Our Work Showcase | Sysconex Portfolio",
+  description: "Browse our interactive portfolio showcase. Discover how Sysconex delivers top-tier software development and web design projects in Sri Lanka.",
   keywords: [
-    "Averto portfolio slider",
-    "NextJS portfolio slider template",
-    "creative portfolio slider",
-    "responsive portfolio slider",
-    "SEO optimized portfolio slider",
-    "digital agency portfolio slider",
-    "startup portfolio showcase",
-    "interactive project slider",
-    "professional portfolio slider",
-    "modern portfolio presentation",
-    "frontend developer portfolio",
-    "creative work slider",
-    "NextJS project slider",
-    "slider based portfolio",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Interactive Portfolio",
+    "Tech Showcase",
+    "Digital Agency Projects"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "Portfolio Slider Page",
+    developer: "sysconex",
   },
 };
 

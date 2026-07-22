@@ -33,42 +33,46 @@ import type { Metadata } from "next";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "Sysconex - Software Development & Digital Agency",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sysconex.com'),
+  title: {
+    template: "%s | Sysconex",
+    default: "Sysconex | Premier Software Development & Digital Agency in Sri Lanka",
+  },
   description:
-    "Sysconex is a leading software development and digital agency providing custom digital solutions, web design, and IT consulting.",
+    "Sysconex is a leading software development and digital agency in Sri Lanka, providing custom digital solutions, web design, mobile apps, and enterprise IT consulting in Colombo and Negombo.",
   keywords: [
-    "NextJS template",
-    "agency website template",
-    "business website template",
-    "responsive web design",
-    "SEO optimized template",
-    "modern NextJS template",
-    "agency website design",
-    "high-performance website template",
-    "web development",
-    "business template NextJS",
-    "Averto template",
-    "digital agency template",
-    "corporate website template",
-    "startup website template",
-    "clean website design",
-    "modern business template",
-    "customizable NextJS template",
-    "business landing page template",
-    "professional web design template",
-    "NextJS portfolio template",
-    "creative agency website template",
-    "landing page template",
-    "NextJS website themes",
-    "responsive business templates",
-    "NextJS for agencies",
-    "SEO friendly web template",
-    "business site design template",
-    "fast website template",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency"
   ],
-  creator: "Sysconex",
+  creator: "sysconex",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "/",
+    siteName: "Sysconex",
+    images: [
+      {
+        url: "/assets/imgs/logo/logo-dark.webp",
+        width: 1200,
+        height: 630,
+        alt: "Sysconex Logo",
+      }
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/assets/imgs/logo/logo-dark.webp"],
+  },
   other: {
-    developer: "Sysconex",
+    developer: "sysconex",
   },
   icons: {
     icon: [

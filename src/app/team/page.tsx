@@ -16,28 +16,31 @@ import testimonialData from "@/constant/AiAgency/testimonial";
 
 
 
-export const metadata:Metadata = {
-  title: "Team || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Meet the talented professionals behind your agency with the Averto Team template. Perfect for showcasing team members, their roles, and expertise in a modern, responsive, and SEO-friendly layout.",
+export const metadata: Metadata = {
+  title: "Our Team | The Experts Behind Sysconex",
+  description: "Meet the brilliant minds at Sysconex. Our team of expert developers, designers, and strategists are driving digital transformation in Sri Lanka.",
   keywords: [
-    "Averto team page",
-    "NextJS team template",
-    "agency team showcase",
-    "team member profiles",
-    "responsive team layout",
-    "SEO optimized team page",
-    "digital agency team",
-    "startup team introduction",
-    "professional team presentation",
-    "team expertise",
-    "business team template",
-    "modern team page",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Sysconex Team",
+    "Software Engineers Sri Lanka",
+    "Web Designers Colombo",
+    "App Developers"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "Team Page",
+    developer: "sysconex",
   },
 };
 

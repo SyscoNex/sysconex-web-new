@@ -9,30 +9,30 @@ import SmoothScroll from "@/components/Animation/SmoothScroll";
 // all data 
 
 export const metadata: Metadata = {
-  title: "Portfolio || Averto - Creative Digital Agency NextJS Template",
-  description:
-    "Showcase your creative work and projects with the Averto Portfolio template. Designed to highlight your skills, case studies, and achievements with a modern, responsive, and SEO-friendly Next.js layout.",
+  title: "Our Work | Sysconex - Software & Web Design Portfolio",
+  description: "Discover our successful case studies and creative portfolio. See how Sysconex transforms businesses with cutting-edge software and digital designs.",
   keywords: [
-    "Averto portfolio page",
-    "NextJS portfolio template",
-    "creative portfolio website",
-    "project showcase",
-    "responsive portfolio design",
-    "SEO optimized portfolio",
-    "digital agency portfolio",
-    "startup portfolio",
-    "professional portfolio layout",
-    "case studies showcase",
-    "frontend developer portfolio",
-    "creative work display",
-    "NextJS personal portfolio",
-    "modern portfolio website",
-    "portfolio landing page",
-  ],
-  creator: "PixaVation",
+    "Sysconex",
+    "Software Development in Sri Lanka",
+    "Digital Agency Sri Lanka",
+    "Software Company Colombo",
+    "Web Development Negombo",
+    "Web Design Sri Lanka",
+    "Mobile App Development",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Tech Agency",
+    "Software Portfolio",
+    "Web Design Case Studies",
+    "Sysconex Projects",
+    "Digital Transformation"
+],
+  creator: "sysconex",
+  openGraph: {
+    images: ['/assets/imgs/logo/logo-dark.webp']
+  },
   other: {
-    developer: "PixaVation",
-    section: "Portfolio Page",
+    developer: "sysconex",
   },
 };
 

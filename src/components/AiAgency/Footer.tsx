@@ -102,8 +102,6 @@ const FooterOne = () => {
             <div className="copyright-text">
               <p className="text">
                 &copy; {new Date().getFullYear()} Sysconex. All rights reserved. <br />
-                Design & Developed by&nbsp;
-                <Link href="#">Sysconex</Link>
               </p>
             </div>
             <ul className="copyright-nav-list">
