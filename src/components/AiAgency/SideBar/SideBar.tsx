@@ -24,7 +24,7 @@ const Sidebar = ({
             {/* Header */}
             <div className="offset-widget offset-header">
               <div className="offset-logo">
-                <Link href="/ai-agency/">
+                <Link href="/">
                   <img src={sidebarData.logo} alt="site logo" />
                 </Link>
               </div>
@@ -67,12 +67,7 @@ const Sidebar = ({
                 </Link>
               </div>
 
-              {/* Gallery */}
-              <div className="post-image">
-                {sidebarData?.gallery?.map((img, i) => (
-                  <img key={i} src={img} alt={`gallery-${i}`} />
-                ))}
-              </div>
+              {/* Gallery removed */}
             </div>
 
             {/* Contact Info */}
@@ -104,17 +99,14 @@ const Sidebar = ({
               <h2 className="title">Connect Us On</h2>
               <div className="social-links">
                 {sidebarData.social.map((social, i) => (
-                  <a key={i} href={social.href}>
-                    {social.label}
+                  <a key={i} href={social.href} title={social.label}>
+                    {social.icon ? <i className={social.icon}></i> : social.label}
                   </a>
                 ))}
               </div>
             </div>
 
-            {/* Footer Logo */}
-            <div className="offset-logo-footer">
-              <img src={sidebarData.footerLogo} alt="footer logo" />
-            </div>
+            {/* Footer Logo removed */}
           </div>
         </div>
       </aside>

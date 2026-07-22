@@ -82,7 +82,7 @@ export const headerContent: HeaderContent = {
     },
     {
       name: "AI Agency",
-      href: "/ai-agency",
+      href: "/",
       image: AiAgency,
     },
     {

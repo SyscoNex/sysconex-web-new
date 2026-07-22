@@ -13,9 +13,9 @@ const BlogSidebar: React.FC = () => {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      router.push(`/ai-agency/blog?search=${encodeURIComponent(searchQuery)}`);
+      router.push(`/blog?search=${encodeURIComponent(searchQuery)}`);
     } else {
-      router.push(`/ai-agency/blog`);
+      router.push(`/blog`);
     }
   };
 
@@ -72,7 +72,7 @@ const BlogSidebar: React.FC = () => {
         <h3 className="title-box">Popular tags</h3>
         <div className="tags-wrapper">
           {popularTags.map((tag: string, idx: number) => (
-            <Link href={`/ai-agency/blog?search=${encodeURIComponent(tag)}`} key={idx}>
+            <Link href={`/blog?search=${encodeURIComponent(tag)}`} key={idx}>
               {tag}
             </Link>
           ))}

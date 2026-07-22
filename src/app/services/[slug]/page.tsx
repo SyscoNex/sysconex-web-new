@@ -35,17 +35,17 @@ const ServiceDetailsPage = async ({ params }: Props) => {
     description: service.overviewDescription,
     buttons: [
       {
-        href: "/ai-agency/contact",
+        href: "/contact",
         style: "t-btn t-btn-circle",
         icon: "fa-solid fa-arrow-right",
       },
       {
-        href: "/ai-agency/contact",
+        href: "/contact",
         style: "t-btn t-btn-primary",
         label: "Get Started",
       },
       {
-        href: "/ai-agency/contact",
+        href: "/contact",
         style: "t-btn t-btn-circle",
         icon: "fa-solid fa-arrow-right",
       },

@@ -19,7 +19,7 @@ const header: HeaderData = {
         { label: "Creative Agency", href: "/creative-agency" },
         { label: "Design Agency", href: "/design-agency" },
         { label: "Digital Agency", href: "/digital-agency" },
-        { label: "AI Agency", href: "/ai-agency" },
+        { label: "AI Agency", href: "/" },
         { label: "Marketing Agency", href: "/marketing-agency" },
         { label: "Digital Collective", href: "/digital-collective" },
         { label: "Marketing Agency V2", href: "/marketing-agency-v2" },

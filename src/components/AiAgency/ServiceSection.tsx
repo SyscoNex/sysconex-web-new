@@ -83,19 +83,19 @@ const ServiceSection: React.FC = () => {
                           <div className="t-btn-group">
                             <Link
                               className="t-btn t-btn-circle"
-                              href={`/ai-agency/services/${service?.slug}`}
+                              href={`/services/${service?.slug}`}
                             >
                               <i className="fa-solid fa-arrow-right"></i>
                             </Link>
                             <Link
                               className="t-btn t-btn-primary"
-                              href={`/ai-agency/services/${service?.slug}`}
+                              href={`/services/${service?.slug}`}
                             >
                               View Details
                             </Link>
                             <Link
                               className="t-btn t-btn-circle"
-                              href={`/ai-agency/services/${service?.slug}`}
+                              href={`/services/${service?.slug}`}
                             >
                               <i className="fa-solid fa-arrow-right"></i>
                             </Link>

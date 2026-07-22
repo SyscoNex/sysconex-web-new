@@ -4,7 +4,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Link from "next/link";
 
 interface Project {
-  id: number;
+  id?: number;
   slug?: string;
   title: string;
   tags: string[];
@@ -138,12 +138,12 @@ const WorkSlider = ({ work = defaultWork }: WorkSliderProps) => {
                     </span>
                   ))}
                 </div>
-                <Link href={item?.slug ? `/ai-agency/portfolio/${item.slug}` : item?.link || "#"}>
+                <Link href={item?.slug ? `/portfolio/${item.slug}` : item?.link || "#"}>
                   <img src={item?.image} alt={item?.title || "Project image"} />
                 </Link>
                 <div className="content">
                   <h3 className="title">
-                    <Link href={item?.slug ? `/ai-agency/portfolio/${item.slug}` : item?.link || "#"}>{item?.title}</Link>
+                    <Link href={item?.slug ? `/portfolio/${item.slug}` : item?.link || "#"}>{item?.title}</Link>
                   </h3>
                 </div>
               </div>

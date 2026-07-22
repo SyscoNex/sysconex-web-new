@@ -108,7 +108,7 @@ const FooterOne = () => {
                 <Link href="/privacy">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/ai-agency/contact">Contact Us</Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

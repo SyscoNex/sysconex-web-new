@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { IProject, WorkData } from "@/constant/AiAgency/workTwo";
+import { WorkData } from "@/constant/AiAgency/workTwo";
+import { PortfolioItem } from "@/constant/AiAgency/work";
 import NiceSelectWrapper from "@/components/AiAgency/NiceSelect/NiceSelectWrapper";
 import WorkSlider from "@/components/AiAgency/Portfolio/WorkSlider";
 
@@ -91,7 +92,7 @@ const WorkSection: React.FC<WorkProps> = ({
                         ))}
                       </div>
                       <div className="img_anim_reveal" suppressHydrationWarning={true}>
-                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>
+                        <Link href={`/portfolio/${item?.slug}`}>
                           <img
                             src={item?.image}
                             alt={item?.title || "Project image"}
@@ -105,26 +106,26 @@ const WorkSection: React.FC<WorkProps> = ({
                         <span className="shape">/</span>
                       </span>
                       <h3 className="title">
-                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>{item?.title}</Link>
+                        <Link href={`/portfolio/${item?.slug}`}>{item?.title}</Link>
                       </h3>
                       <div
                         className={`t-btn-group ${type === 7 ? "d-none" : ""}`}
                       >
                         <Link
                           className="t-btn t-btn-circle"
-                          href={`/ai-agency/portfolio/${item?.slug}`}
+                          href={`/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>
                         <Link
                           className="t-btn t-btn-primary"
-                          href={`/ai-agency/portfolio/${item?.slug}`}
+                          href={`/portfolio/${item?.slug}`}
                         >
                           View Full Project
                         </Link>
                         <Link
                           className="t-btn t-btn-circle"
-                          href={`/ai-agency/portfolio/${item?.slug}`}
+                          href={`/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>
@@ -211,7 +212,7 @@ const WorkSection: React.FC<WorkProps> = ({
           <div className="works-wrapper-box fade-anim" suppressHydrationWarning={true}>
             <div className="container">
               <div className="works-wrapper">
-                {workData?.projects?.map((item: IProject, index: number) => (
+                {workData?.projects?.map((item: PortfolioItem, index: number) => (
                   <div className="work-box-1 fade-anim" key={item?.id} suppressHydrationWarning={true}>
                     <div className="thumb">
                       <div className="meta">
@@ -222,7 +223,7 @@ const WorkSection: React.FC<WorkProps> = ({
                         ))}
                       </div>
                       <div className="img_anim_reveal" suppressHydrationWarning={true}>
-                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>
+                        <Link href={`/portfolio/${item?.slug}`}>
                           <img
                             src={item?.image}
                             alt={item?.title || "Project image"}
@@ -236,24 +237,24 @@ const WorkSection: React.FC<WorkProps> = ({
                         <span className="shape">/</span>
                       </span>
                       <h3 className="title">
-                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>{item?.title}</Link>
+                        <Link href={`/portfolio/${item?.slug}`}>{item?.title}</Link>
                       </h3>
                       <div className="t-btn-group">
                         <Link
                           className="t-btn t-btn-circle"
-                          href={`/ai-agency/portfolio/${item?.slug}`}
+                          href={`/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>
                         <Link
                           className="t-btn t-btn-primary"
-                          href={`/ai-agency/portfolio/${item?.slug}`}
+                          href={`/portfolio/${item?.slug}`}
                         >
                           View Full Project
                         </Link>
                         <Link
                           className="t-btn t-btn-circle"
-                          href={`/ai-agency/portfolio/${item?.slug}`}
+                          href={`/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>

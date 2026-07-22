@@ -60,7 +60,7 @@ const FooterSection: React.FC<FooterSectionProps> = ({ data: footerData }) => {
             <div className="footer-widget-box">
               <div className="info-box">
                 <div className="footer-logo">
-                  <Link href={footerData?.logoLink || "/ai-agency"}>
+                  <Link href={footerData?.logoLink || "/"}>
                     <img src={footerData?.logo} alt="site logo" />
                   </Link>
                 </div>

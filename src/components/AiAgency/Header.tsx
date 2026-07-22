@@ -26,23 +26,23 @@ interface HeaderData {
 // --- TYPED DATA OBJECT ---
 const headerData: HeaderData = {
   logo: {
-    href: "/ai-agency",
+    href: "/",
     src: "/assets/images/logo_black.png",
     alt: "Site Logo",
   },
   menuItems: [
     {
       title: "Home",
-      href: "/ai-agency",
+      href: "/",
     },
-    { title: "About Us", href: "/ai-agency/about" },
-    { title: "Services", href: "/ai-agency/services" },
-    { title: "Case Studies", href: "/ai-agency/portfolio" },
-    { title: "Blogs", href: "/ai-agency/blogs" },
-    { title: "Contact", href: "/ai-agency/contact" },
+    { title: "About Us", href: "/about" },
+    { title: "Services", href: "/services" },
+    { title: "Case Studies", href: "/portfolio" },
+    { title: "Blogs", href: "/blog" },
+    { title: "Contact", href: "/contact" },
   ],
   cta: {
-    href: "/ai-agency/contact",
+    href: "/contact",
     label: "Let’s Connect",
   },
 };

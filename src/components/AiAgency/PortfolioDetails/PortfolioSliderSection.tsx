@@ -70,12 +70,12 @@ const PortfolioSliderSection: React.FC<IPortfolioSliderProps> = ({
                               )
                             )}
                           </div>
-                          <Link href={`/ai-agency/portfolio/${project?.slug}`}>
+                          <Link href={`/portfolio/${project?.slug}`}>
                             <img src={project?.image} alt="project image" />
                           </Link>
                           <div className="content">
                             <h3 className="title">
-                              <Link href={`/ai-agency/portfolio/${project?.slug}`}>
+                              <Link href={`/portfolio/${project?.slug}`}>
                                 {project?.title}
                               </Link>
                             </h3>

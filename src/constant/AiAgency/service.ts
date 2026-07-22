@@ -32,7 +32,7 @@ export interface Service {
 export const serviceSectionData: ServiceSectionData = {
   subtitle: "Our Services",
   title: "Our Best Software Solutions",
-  exploreLink: "/ai-agency/services",
+  exploreLink: "/services",
 };
 
 export const servicesData: Service[] = [
@@ -44,7 +44,7 @@ export const servicesData: Service[] = [
     image: "/assets/images/service/service_web_dev_new.png",
     description:
       "We build robust, scalable, and beautifully designed custom websites and web applications tailored exactly to your business goals and user needs.",
-    detailLink: "/ai-agency/services",
+    detailLink: "/services",
     overviewTitle: "Scalable Web Architectures",
     overviewDescription: "Sysconex engineers high-performance web platforms that combine stunning design with robust backend infrastructure, ensuring seamless user experiences and maximum conversion rates.",
     serviceFeatures: [
@@ -94,7 +94,7 @@ export const servicesData: Service[] = [
     image: "/assets/images/service/service_mobile_dev.png",
     description:
       "Our team engineers high-performance native and cross-platform mobile applications that provide seamless, engaging experiences on both iOS and Android devices.",
-    detailLink: "/ai-agency/services",
+    detailLink: "/services",
     overviewTitle: "Next-Gen Mobile Experiences",
     overviewDescription: "We build intuitive, fluid, and powerful mobile applications that put your business directly in your customers' hands, leveraging native technologies for uncompromised performance.",
     serviceFeatures: [
@@ -144,7 +144,7 @@ export const servicesData: Service[] = [
     image: "/assets/images/service/service_social_marketing.png",
     description:
       "We design data-driven social media marketing campaigns that elevate your brand presence, engage your target audience, and drive measurable conversions.",
-    detailLink: "/ai-agency/services",
+    detailLink: "/services",
     overviewTitle: "Data-Driven Brand Growth",
     overviewDescription: "We don't just run ads; we engineer growth. Our digital marketing strategies combine creative storytelling with rigorous data analytics to maximize your return on investment.",
     serviceFeatures: [
@@ -194,7 +194,7 @@ export const servicesData: Service[] = [
     image: "/assets/images/service/service_ai_research.png",
     description:
       "We develop cutting-edge, AI-driven research applications that leverage machine learning and advanced data modeling to solve complex analytical challenges.",
-    detailLink: "/ai-agency/services",
+    detailLink: "/services",
     overviewTitle: "Advanced Machine Learning Models",
     overviewDescription: "Unlock the power of your data. We build custom AI applications that automate complex research, generate deep predictive insights, and revolutionize how you make critical business decisions.",
     serviceFeatures: [

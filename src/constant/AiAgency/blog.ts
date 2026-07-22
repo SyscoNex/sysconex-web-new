@@ -23,7 +23,7 @@ const blogData: BlogData = {
   button: {
     text: "Explore More",
     iconClass: "fa-solid fa-arrow-right",
-    href: "/ai-agency/blog",
+    href: "/blog",
   },
   blogs: [
     {
@@ -31,21 +31,21 @@ const blogData: BlogData = {
       tag: "ARTIFICIAL INTELLIGENCE",
       date: "July 22, 2026",
       title: "The Future of AI in Software Engineering",
-      link: "/ai-agency/blog/future-of-ai-in-software",
+      link: "/blog/future-of-ai-in-software",
     },
     {
       image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=410&h=250&auto=format&fit=crop",
       tag: "CLOUD COMPUTING",
       date: "July 18, 2026",
       title: "Architecting Scalable Cloud Microservices",
-      link: "/ai-agency/blog/architecting-scalable-cloud",
+      link: "/blog/architecting-scalable-cloud",
     },
     {
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=410&h=250&auto=format&fit=crop",
       tag: "BLOCKCHAIN",
       date: "July 12, 2026",
       title: "Demystifying Web3: Blockchain for Enterprise",
-      link: "/ai-agency/blog/demystifying-web3",
+      link: "/blog/demystifying-web3",
     },
   ],
 };

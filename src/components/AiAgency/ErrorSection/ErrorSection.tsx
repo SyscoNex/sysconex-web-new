@@ -15,13 +15,13 @@ const ErrorSection: React.FC = () => {
               Sorry, the page you are looking for does not exist.
             </p>
             <div className="t-btn-group mt-4">
-              <Link className="t-btn t-btn-circle" href="/ai-agency/">
+              <Link className="t-btn t-btn-circle" href="/">
                 <i className="fa-solid fa-arrow-right"></i>
               </Link>
-              <Link className="t-btn t-btn-primary" href="/ai-agency/">
+              <Link className="t-btn t-btn-primary" href="/">
                 Go Back Home
               </Link>
-              <Link className="t-btn t-btn-circle" href="/ai-agency/">
+              <Link className="t-btn t-btn-circle" href="/">
                 <i className="fa-solid fa-arrow-right"></i>
               </Link>
             </div>

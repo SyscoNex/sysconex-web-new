@@ -33,11 +33,11 @@ const footerData: FooterData = {
   cta: {
     title: "Transform Your Brand with <br>AI-Powered insights",
     buttonText: "Let’s Start",
-    buttonLink: "/ai-agency/contact",
+    buttonLink: "/contact",
     iconClass: "fa-solid fa-arrow-right",
   },
   logo: "/assets/imgs/logo/logo-4-light.png",
-  logoLink: "/ai-agency",
+  logoLink: "/",
   navLinks: [
     { label: "About", href: "#" },
     { label: "Portfolio", href: "#" },

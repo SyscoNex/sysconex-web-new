@@ -23,6 +23,7 @@ export interface SidebarContact {
 export interface SidebarSocial {
   label: string;
   href: string;
+  icon?: string;
 }
 
 export interface SidebarData {
@@ -40,65 +41,14 @@ export interface SidebarData {
 }
 
 const sidebar: SidebarData = {
-  logo: "/assets/imgs/logo/logo.png",
+  logo: "/assets/images/logo_black.png",
   menus: [
-    {
-      label: "Home",
-      children: [
-        { label: "Creative Agency", href: "/creative-agency" },
-        { label: "Design Agency", href: "/design-agency" },
-        { label: "Digital Agency", href: "/digital-agency" },
-        { label: "AI Agency", href: "/ai-agency" },
-        { label: "Marketing Agency", href: "/marketing-agency" },
-        { label: "Digital Collective", href: "/digital-collective" },
-        { label: "Marketing Agency V2", href: "/marketing-agency-v2" },
-        { label: "Financial Advisor", href: "/financial-advisor" },
-      ],
-    },
-    {
-      label: "Pages",
-      children: [
-        { label: "About Us", href: "/ai-agency/about" },
-        {
-          label: "Service",
-          children: [
-            { label: "Services", href: "/ai-agency/services" },
-            { label: "Service Details", href: "/ai-agency/service-details" },
-          ],
-        },
-        {
-          label: "Portfolio Pages",
-          children: [
-            { label: "Portfolio", href: "/ai-agency/portfolio" },
-            { label: "Portfolio 02", href: "/ai-agency/portfolio-02" },
-            { label: "Portfolio 03", href: "/ai-agency/portfolio-03" },
-            {
-              label: "Portfolio Details",
-              href: "/ai-agency/portfolio-details",
-            },
-          ],
-        },
-        { label: "Team", href: "/ai-agency/team" },
-        {
-          label: "Blog Pages",
-          children: [
-            { label: "Blog", href: "/ai-agency/blog" },
-            { label: "Blog Grid", href: "/ai-agency/blog-grid" },
-            { label: "Blog Details", href: "/ai-agency/blog-details" },
-          ],
-        },
-        { label: "FAQ", href: "/ai-agency/faq" },
-        { label: "Contact", href: "/ai-agency/contact" },
-      ],
-    },
-    {
-      label: "Portfolio",
-      children: [
-        { label: "Portfolio", href: "/ai-agency/portfolio" },
-        { label: "Portfolio Details", href: "/ai-agency/portfolio-details" },
-      ],
-    },
-    { label: "Contact Us", href: "/ai-agency/contact" },
+    { label: "Home", href: "/" },
+    { label: "About Us", href: "/about" },
+    { label: "Services", href: "/services" },
+    { label: "Case Studies", href: "/portfolio" },
+    { label: "Blogs", href: "/blog" },
+    { label: "Contact Us", href: "/contact" },
   ],
   closeIcon: "fas fa-times",
   title: "Hello There!",
@@ -106,7 +56,7 @@ const sidebar: SidebarData = {
     "We offer comprehensive range of services to help your business thrive.",
   cta: {
     text: "Let’s Connect",
-    href: "/ai-agency/contact",
+    href: "/contact",
   },
   ctaIcon: "fa-solid fa-arrow-right",
   gallery: [
@@ -116,17 +66,15 @@ const sidebar: SidebarData = {
     "/assets/imgs/gallery/image-51.webp",
   ],
   contact: {
-    phone: { text: "+2230 6965 119", href: "tel:+22306965119" },
-    email: { text: "averto@gmail.com", href: "mailto:averto@gmail.com" },
-    address: "Avenue de Roma 1588, Lisboa",
+    phone: { text: "+94 76 117 6061", href: "tel:+94761176061" },
+    email: { text: "info@sysconex.com", href: "mailto:info@sysconex.com" },
+    address: "Negombo, Sri Lanka",
   },
   social: [
-    { label: "FB", href: "#" },
-    { label: "LN", href: "#" },
-    { label: "IN", href: "#" },
-    { label: "BE", href: "#" },
+    { label: "FB", href: "https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/", icon: "fa-brands fa-facebook-f" },
+    { label: "LN", href: "https://lk.linkedin.com/company/sysconex-solutions", icon: "fa-brands fa-linkedin-in" },
   ],
-  footerLogo: "/assets/imgs/logo/logo-6.png",
+  footerLogo: "/assets/images/logo_black.png",
 };
 
 export default sidebar;

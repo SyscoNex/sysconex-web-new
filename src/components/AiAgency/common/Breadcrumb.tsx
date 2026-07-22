@@ -67,7 +67,7 @@ const Breadcrumb:React.FC<BreadcrumbProps> = ({ title, subTitle, pageName }) => 
             >
               <ul className="breadcrumb">
                 <li>
-                  <Link href="/ai-agency">HOME</Link>
+                  <Link href="/">HOME</Link>
                 </li>
                 <li>{finalPageName}</li>
               </ul>

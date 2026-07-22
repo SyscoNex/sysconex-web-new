@@ -12,7 +12,7 @@ const workData: WorkData = {
   sectionSubtitle: "Our Portfolio",
   sectionTitle: "Selected works",
   viewAllText: "See All Works",
-  viewAllLink: "/ai-agency/portfolio",
+  viewAllLink: "/portfolio",
   projects: portfolioItems,
 };
 

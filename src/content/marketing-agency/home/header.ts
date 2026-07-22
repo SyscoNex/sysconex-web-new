@@ -49,7 +49,7 @@ export const headerContent: HeaderContent = {
           title: "AI Agency",
           image: AiAgency,
           alt: "mega-menu-home-4",
-          href: "/ai-agency",
+          href: "/",
         },
         {
           id: "marketing-advisor",

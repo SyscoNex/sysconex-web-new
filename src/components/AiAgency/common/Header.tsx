@@ -27,61 +27,61 @@ const headerData: HeaderData = {
   logo: {
     src: "/assets/imgs/logo/logo.png",
     alt: "Site Logo",
-    href: "/ai-agency",
+    href: "/",
   },
   menuItems: [
     {
       title: "Home",
-      href: "/ai-agency",
+      href: "/",
     },
-    { title: "About Us", href: "/ai-agency/about" },
-    { title: "Services", href: "/ai-agency/services" },
+    { title: "About Us", href: "/about" },
+    { title: "Services", href: "/services" },
     
     {
       title: "Pages",
       children: [
-        { title: "About Us", href: "/ai-agency/about" },
+        { title: "About Us", href: "/about" },
         {
           title: "Service",
           children: [
-            { title: "Services", href: "/ai-agency/services" },
-            { title: "Service Details", href: "/ai-agency/service-details" },
+            { title: "Services", href: "/services" },
+            { title: "Service Details", href: "/service-details" },
           ],
         },
         {
           title: "Portfolio Pages",
           children: [
-            { title: "Portfolio", href: "/ai-agency/portfolio" },
-            { title: "Portfolio Grid", href: "/ai-agency/portfolio-grid" },
-            { title: "Portfolio Slider", href: "/ai-agency/portfolio-slider" },
-            { title: "Portfolio Details", href: "/ai-agency/portfolio-details" },
+            { title: "Portfolio", href: "/portfolio" },
+            { title: "Portfolio Grid", href: "/portfolio-grid" },
+            { title: "Portfolio Slider", href: "/portfolio-slider" },
+            { title: "Portfolio Details", href: "/portfolio-details" },
           ],
         },
-        { title: "Team", href: "/ai-agency/team" },
+        { title: "Team", href: "/team" },
         {
           title: "Blog Pages",
           children: [
-            { title: "Blog", href: "/ai-agency/blog" },
-            { title: "Blog Grid", href: "/ai-agency/blog-grid" },
-            { title: "Blog Details", href: "/ai-agency/blog-details" },
+            { title: "Blog", href: "/blog" },
+            { title: "Blog Grid", href: "/blog-grid" },
+            { title: "Blog Details", href: "/blog-details" },
           ],
         },
-        { title: "FAQ", href: "/ai-agency/faq" },
-        { title: "Contact", href: "/ai-agency/contact" },
+        { title: "FAQ", href: "/faq" },
+        { title: "Contact", href: "/contact" },
       ],
     },
     {
       title: "Blog",
       children: [
-        { title: "Blog", href: "/ai-agency/blog" },
-        { title: "Blog Grid", href: "/ai-agency/blog-grid" },
-        { title: "Blog Details", href: "/ai-agency/blog-details" },
+        { title: "Blog", href: "/blog" },
+        { title: "Blog Grid", href: "/blog-grid" },
+        { title: "Blog Details", href: "/blog-details" },
       ],
     },
-    { title: "Contact", href: "/ai-agency/contact" },
+    { title: "Contact", href: "/contact" },
   ],
   cta: {
-    href: "/ai-agency/contact",
+    href: "/contact",
     label: "Let’s Connect",
   },
 };

@@ -29,7 +29,7 @@ const heroData: HeroData = {
     primaryBtnText: "Get Started",
     primaryBtnLink: "https://cal.com/sysconex/30min",
     secondaryBtnText: "Contact Us",
-    secondaryBtnLink: "/ai-agency/contact",
+    secondaryBtnLink: "/contact",
     brandTitle: "100+ Trusted Clients Over Worldwide",
     brands: [
       { image: "/assets/images/client_brands/accessara.webp" },

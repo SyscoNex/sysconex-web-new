@@ -16,7 +16,7 @@ const aboutData = {
   ],
   image: "/assets/imgs/shape/shape-23.webp",
   imageAlt: "About Sysconex",
-  aboutLink: "/ai-agency/about",
+  aboutLink: "/about",
   buttonText: "About Agency",
 };
 

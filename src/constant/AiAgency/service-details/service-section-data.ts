@@ -26,17 +26,17 @@ const serviceData: IServiceData = {
     "Averto, a digital agency crafted by a dedicated team of creatives champions the essence of simplicity and elegance.",
   buttons: [
     {
-      href: "/ai-agency/contact",
+      href: "/contact",
       style: "t-btn t-btn-circle",
       icon: "fa-solid fa-arrow-right",
     },
     {
-      href: "/ai-agency/contact",
+      href: "/contact",
       style: "t-btn t-btn-primary",
       label: "Get Started",
     },
     {
-      href: "/ai-agency/contact",
+      href: "/contact",
       style: "t-btn t-btn-circle",
       icon: "fa-solid fa-arrow-right",
     },

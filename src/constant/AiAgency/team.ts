@@ -23,7 +23,7 @@ export const teamSectionContent: TeamSectionContent = {
   title: "Where Creativity Meets Technology: Our Talents for solutions",
   completedProjects: "50+",
   projectsText: "Completed Projects",
-  exploreLink: "/ai-agency/team",
+  exploreLink: "/team",
 };
 
 export const teamMembers: TeamMember[] = [

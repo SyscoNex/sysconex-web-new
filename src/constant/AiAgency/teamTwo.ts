@@ -28,7 +28,7 @@ const teamData: TeamData = {
     subtitle: "Our Team Members",
     title: "Meet the Sysconex Team",
     buttonText: "All Members",
-    buttonUrl: "/ai-agency/team",
+    buttonUrl: "/team",
   },
   members: [
     {

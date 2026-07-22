@@ -36,19 +36,19 @@ export const recentBlogs: IRecentBlog[] = [
     title: "Our most recent updates and announcements",
     date: "February 12, 2025",
     image: "/assets/imgs/blog/blog-3.webp",
-    url: "/ai-agency/blog-details",
+    url: "/blog-details",
   },
   {
     title: "The Art of Creative Storytelling at Averto",
     date: "February 12, 2025",
     image: "/assets/imgs/blog/blog-16.webp",
-    url: "/ai-agency/blog-details",
+    url: "/blog-details",
   },
   {
     title: "Elevating Your Identity with our studio",
     date: "February 12, 2025",
     image: "/assets/imgs/blog/blog-18.webp",
-    url: "/ai-agency/blog-details",
+    url: "/blog-details",
   },
 ];
 

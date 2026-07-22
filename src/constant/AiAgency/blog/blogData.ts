@@ -28,7 +28,7 @@ const blogData: IBlog[] = [
     comments: 0,
     image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=821&h=480&auto=format&fit=crop",
     text: "Artificial Intelligence is no longer just a buzzword; it's rapidly transforming how developers write, test, and deploy code globally.",
-    url: "/ai-agency/blog/future-of-ai-in-software",
+    url: "/blog/future-of-ai-in-software",
     seoDescription: "Explore how AI is revolutionizing software engineering, from automated code generation to intelligent debugging and testing protocols.",
     sections: [
       {
@@ -56,7 +56,7 @@ const blogData: IBlog[] = [
     comments: 0,
     image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=821&h=480&auto=format&fit=crop",
     text: "Discover the core principles of designing resilient, infinitely scalable microservices architectures using modern cloud infrastructure.",
-    url: "/ai-agency/blog/architecting-scalable-cloud",
+    url: "/blog/architecting-scalable-cloud",
     seoDescription: "A deep dive into cloud microservices, Kubernetes orchestration, and strategies for maintaining high availability in enterprise applications.",
     sections: [
       {
@@ -84,7 +84,7 @@ const blogData: IBlog[] = [
     comments: 0,
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=821&h=480&auto=format&fit=crop",
     text: "Moving past the crypto hype to understand how enterprises are legitimately leveraging blockchain technology for supply chains and data integrity.",
-    url: "/ai-agency/blog/demystifying-web3",
+    url: "/blog/demystifying-web3",
     seoDescription: "Understanding the real-world enterprise applications of Web3, smart contracts, and decentralized ledgers beyond cryptocurrency.",
     sections: [
       {
@@ -112,7 +112,7 @@ const blogData: IBlog[] = [
     comments: 0,
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=821&h=480&auto=format&fit=crop",
     text: "How Platform Engineering and GitOps are redefining the way modern software teams manage infrastructure and deployments.",
-    url: "/ai-agency/blog/evolution-of-devops",
+    url: "/blog/evolution-of-devops",
     seoDescription: "Explore the transition from traditional DevOps to Platform Engineering, GitOps workflows, and the automation of infrastructure.",
     sections: [
       {
@@ -140,7 +140,7 @@ const blogData: IBlog[] = [
     comments: 0,
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=821&h=480&auto=format&fit=crop",
     text: "Why the traditional 'castle and moat' security model is obsolete, and how Zero-Trust architectures are securing the modern web.",
-    url: "/ai-agency/blog/zero-trust-cybersecurity",
+    url: "/blog/zero-trust-cybersecurity",
     seoDescription: "An in-depth look at Zero-Trust cybersecurity architectures, continuous authentication, and securing cloud-native environments.",
     sections: [
       {

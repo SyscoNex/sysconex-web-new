@@ -14,7 +14,7 @@ const FooterOne = () => {
       <div className="cta-area-2">
         <div className="container">
           <div className="cta-area-2-inner">
-            <Link href="/ai-agency/contact">
+            <Link href="/contact">
               <div className="section-header">
                 <div className="section-title-wrapper">
                   <div className="title-wrapper fade-anim">
@@ -47,7 +47,7 @@ const FooterOne = () => {
           <div className="footer-widget-wrapper">
             <div className="footer-widget-box" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "30px", marginBottom: "20px" }}>
               <div className="footer-logo">
-                <Link href="/ai-agency">
+                <Link href="/">
                   <img
                     src="/assets/images/logo_white.png"
                     alt="site logo"
@@ -56,10 +56,10 @@ const FooterOne = () => {
                 </Link>
               </div>
               <ul className="footer-nav-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", gap: "30px", flexWrap: "wrap" }}>
-                <li><Link href="/ai-agency/about" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>About Us</Link></li>
-                <li><Link href="/ai-agency/portfolio" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>Case Studies</Link></li>
-                <li><Link href="/ai-agency/faq" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>FAQ's</Link></li>
-                <li><Link href="/ai-agency/services" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>Our Services</Link></li>
+                <li><Link href="/about" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>About Us</Link></li>
+                <li><Link href="/portfolio" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>Case Studies</Link></li>
+                <li><Link href="/faq" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>FAQ's</Link></li>
+                <li><Link href="/services" style={{ color: "var(--white)", fontSize: "18px", opacity: 0.8, textDecoration: "none" }}>Our Services</Link></li>
               </ul>
             </div>
             <div className="footer-widget-box">
@@ -114,7 +114,7 @@ const FooterOne = () => {
                 <Link href="/privacy">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/ai-agency/contact">Contact Us</Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
