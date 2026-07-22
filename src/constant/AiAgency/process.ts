@@ -13,25 +13,25 @@ export interface ProcessData {
 
 const processData: ProcessData = {
   subtitle: "WORK PROCESS",
-  title: "How Averto Innovate",
+  title: "How Sysconex Innovates",
   videoUrl:"/videos/how_we_work.mp4",
   steps: [
     {
       title: "Discovery & Consultation",
       description:
-        "We start by understanding your business needs, challenges, and goals. Our team collaborates with you to identify opportunities where AI can drive the most impact and gather all the necessary information to develop a tailored solution.",
+        "We start by understanding your business needs, challenges, and goals. Our team collaborates with you to identify technical opportunities where custom software or digital marketing can drive the most impact, gathering all necessary requirements.",
       active: true,
     },
     {
-      title: "Solution Design & Ideation",
+      title: "Architecture & UI/UX Design",
       description:
-        "We begin the ideation phase where we brainstorm and design solutions based on the information gathered. We present options and select the one that aligns best with your goals.",
+        "Our experts craft a comprehensive technical architecture and design seamless, intuitive user experiences. We present wireframes and mockups to ensure the final product perfectly aligns with your brand vision and business objectives.",
       active: false,
     },
     {
       title: "Development & Integration",
       description:
-        "We develop and integrate the AI-driven solution, ensuring it meets your specifications and delivers the intended business value. Our team supports you through deployment and ensures smooth integration.",
+        "We engineer and deploy robust, high-performance web and mobile applications using the latest technologies. Our team provides continuous support, ensuring smooth integration into your existing business ecosystem.",
       active: false,
     },
   ],

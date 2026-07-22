@@ -20,7 +20,7 @@ const ProcessSection: React.FC<ProcessSectionProps> = ({type, data: processData 
 
 
   return (
-    <section className={`process-area-4 ${type === "v2" ? "section-m-spacing" : ""}`}>
+    <section className={`process-area-4 ${type === "v2" ? "section-m-spacing" : ""}`} style={{ borderRadius: '40px', overflow: 'hidden', margin: '60px 20px' }}>
       <div className="container">
         <div className="process-area-4-inner">
           <div className="section-content section-spacing">

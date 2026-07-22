@@ -23,22 +23,22 @@ export interface AboutTwoData {
 const aboutTwoContent: AboutTwoData = {
   thumb1: {
     shape1: "/assets/imgs/shape/shape-50.webp",
-    image: "/assets/imgs/shape/shape-47.webp",
+    image: "/assets/images/about/team_collaboration.png",
     alt1: "Decorative shape",
-    alt2: "AI Illustration",
+    alt2: "Sysconex Development Team",
   },
   thumb2: {
-    logo: "/assets/imgs/logo/logo-5-light.png",
-    logoAlt: "Averto AI Logo",
+    logo: "",
+    logoAlt: "Sysconex Logo",
     icon: "/assets/imgs/icon/icon-27.webp",
     iconAlt: "Play icon",
     text: "Play intro video",
-    videoLink: "/videos/intro_video.mp4",
+    videoLink: "/assets/video/SYSCONEX_INTRO.mp4",
   },
   thumb3: {
-    brandText: "AVERTO AI",
-    image: "/assets/imgs/shape/shape-49.webp",
-    alt: "Background Shape",
+    brandText: "SYSCONEX",
+    image: "/assets/images/about/tech_abstract.png",
+    alt: "Digital Development Abstract",
   },
 };
 export default aboutTwoContent;

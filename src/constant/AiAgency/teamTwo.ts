@@ -26,16 +26,16 @@ export interface TeamData {
 const teamData: TeamData = {
   section: {
     subtitle: "Our Team Members",
-    title: "Meet our professionals",
+    title: "Meet the Sysconex Team",
     buttonText: "All Members",
-    buttonUrl: "/digital-agency/team",
+    buttonUrl: "/ai-agency/team",
   },
   members: [
     {
       id: 1,
-      name: "Alexandra Moore",
-      position: "Chief AI Architect",
-      image: "/assets/imgs/team/team-1.webp",
+      name: "Sachintha Niyangoda",
+      position: "Founder & CEO",
+      image: "/assets/images/team/sachintha.webp",
       socials: {
         instagram: "#",
         twitter: "#",
@@ -45,9 +45,9 @@ const teamData: TeamData = {
     },
     {
       id: 2,
-      name: "Emily Rodriguez",
-      position: "Head of Data Science",
-      image: "/assets/imgs/team/team-2.webp",
+      name: "Kavishi Sirisena",
+      position: "Marketing Manager",
+      image: "/assets/images/team/kavishi.jpg",
       socials: {
         instagram: "#",
         twitter: "#",
@@ -57,9 +57,9 @@ const teamData: TeamData = {
     },
     {
       id: 3,
-      name: "Jordan Williams",
-      position: "AI Ethics Officer",
-      image: "/assets/imgs/team/team-3.webp",
+      name: "Sahan Thilakarathna",
+      position: "Software Engineer",
+      image: "/assets/images/team/sahan.webp",
       socials: {
         instagram: "#",
         twitter: "#",
@@ -69,69 +69,9 @@ const teamData: TeamData = {
     },
     {
       id: 4,
-      name: "Ethan Brooklyn",
-      position: "AI Research Lead",
-      image: "/assets/imgs/team/team-7.webp",
-      socials: {
-        instagram: "#",
-        twitter: "#",
-        facebook: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      id: 5,
-      name: "Sophia Turner",
-      position: "Machine Learning Engineer",
-      image: "/assets/imgs/team/team-8.webp",
-      socials: {
-        instagram: "#",
-        twitter: "#",
-        facebook: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      id: 6,
-      name: "Daniel Carter",
-      position: "Data Engineer",
-      image: "/assets/imgs/team/team-9.webp",
-      socials: {
-        instagram: "#",
-        twitter: "#",
-        facebook: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      id: 7,
-      name: "Olivia Bennett",
-      position: "NLP Specialist",
-      image: "/assets/imgs/team/team-18.webp",
-      socials: {
-        instagram: "#",
-        twitter: "#",
-        facebook: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      id: 8,
-      name: "Michael Scott",
-      position: "Computer Vision Scientist",
-      image: "/assets/imgs/team/team-19.webp",
-      socials: {
-        instagram: "#",
-        twitter: "#",
-        facebook: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      id: 9,
-      name: "Chloe Anderson",
-      position: "AI Product Manager",
-      image: "/assets/imgs/team/team-20.webp",
+      name: "Akash Induwara",
+      position: "Senior Software Engineer",
+      image: "/assets/images/team/aksh.webp",
       socials: {
         instagram: "#",
         twitter: "#",

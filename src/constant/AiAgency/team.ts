@@ -28,9 +28,9 @@ export const teamSectionContent: TeamSectionContent = {
 
 export const teamMembers: TeamMember[] = [
   {
-    name: "Alexandra Moore",
-    position: "Chief AI Architect",
-    image: "/assets/imgs/team/team-10.webp",
+    name: "Sachintha Niyangoda",
+    position: "Founder & CEO",
+    image: "/assets/images/team/sachintha.webp",
     socials: {
       instagram: "#",
       twitter: "#",
@@ -39,9 +39,9 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Emily Rodriguez",
-    position: "Head of Data Science",
-    image: "/assets/imgs/team/team-11.webp",
+    name: "Kavishi Sirisena",
+    position: "Marketing Manager",
+    image: "/assets/images/team/kavishi.jpg",
     socials: {
       instagram: "#",
       twitter: "#",
@@ -50,9 +50,9 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Jordan Williams",
-    position: "AI Ethics Officer",
-    image: "/assets/imgs/team/team-12.webp",
+    name: "Sahan Thilakarathna",
+    position: "Software Engineer",
+    image: "/assets/images/team/sahan.webp",
     socials: {
       instagram: "#",
       twitter: "#",
@@ -61,9 +61,9 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Ethan Brooklyn",
-    position: "AI Research Lead",
-    image: "/assets/imgs/team/team-13.webp",
+    name: "Akash Induwara",
+    position: "Senior Software Engineer",
+    image: "/assets/images/team/aksh.webp",
     socials: {
       instagram: "#",
       twitter: "#",

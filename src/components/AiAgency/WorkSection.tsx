@@ -11,7 +11,7 @@ interface IWorkProps {
   all?: boolean;
 }
 const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
-  const totalPortfolio = all ? portfolioItems : portfolioItems?.slice(0, 4);
+  const totalPortfolio = all ? portfolioItems : portfolioItems?.slice(0, 5);
 
   return (
     <section className="work-area-4">
@@ -85,6 +85,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                     <img
                       src={item?.image}
                       alt={item?.title || "Portfolio Image"}
+                      style={{ width: '1230px', height: '380px', objectFit: 'cover' }}
                     />
                   </div>
 

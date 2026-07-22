@@ -85,7 +85,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
                     modules={[Autoplay]}
                     slidesPerView={"auto"}
                     loop={true}
-                    speed={5000}
+                    speed={3000}
                     autoplay={{
                       delay: 1,
                       disableOnInteraction: false,
@@ -94,9 +94,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
                     className="brand-slider-active"
                   >
                     {heroData?.brands?.map((brand: IBrand, index: number) => (
-                      <SwiperSlide key={index}>
+                      <SwiperSlide key={index} style={{ width: 'auto', padding: '0 25px' }}>
                         <div className="brand-item-4">
-                          <img src={brand?.image} alt={`brand-${index}`} />
+                          <img 
+                            src={brand?.image} 
+                            alt={`brand-${index}`} 
+                            style={{ maxHeight: '50px', width: 'auto', objectFit: 'contain' }}
+                          />
                         </div>
                       </SwiperSlide>
                     ))}

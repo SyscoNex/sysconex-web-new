@@ -43,12 +43,14 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
 
             {/* Thumb 2 */}
             <div className="thumb thumb-2">
-              <div className="shape-1">
-                <img
-                  src={aboutTwoData?.thumb2?.logo}
-                  alt={aboutTwoData?.thumb2?.logoAlt || "logo"}
-                />
-              </div>
+              {aboutTwoData?.thumb2?.logo && (
+                <div className="shape-1">
+                  <img
+                    src={aboutTwoData?.thumb2?.logo}
+                    alt={aboutTwoData?.thumb2?.logoAlt || "logo"}
+                  />
+                </div>
+              )}
 
               {/* Video Button */}
               <div className="video-button">

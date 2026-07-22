@@ -10,7 +10,7 @@ export interface BrandsData {
 
 
 const brandsData:BrandsData = {
-    title: "300+ Trusted Clients Over Worldwide",
+    title: "100+ Trusted Clients Over Worldwide",
     brands: [
       { id: 1, image: "/assets/imgs/brand/brand-15.webp" },
       { id: 2, image: "/assets/imgs/brand/brand-16.webp" },

@@ -66,6 +66,7 @@ const TeamsSection: React.FC<TeamsSectionProps> = ({ all, data: teamData }) => {
                     <img
                       src={member?.image}
                       alt={member?.name || "Team Member"}
+                      style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover' }}
                     />
                   </div>
                   <div className="content">

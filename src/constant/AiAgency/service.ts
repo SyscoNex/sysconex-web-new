@@ -16,49 +16,49 @@ export interface Service {
 
 export const serviceSectionData: ServiceSectionData = {
   subtitle: "Our Services",
-  title: "Our Best AI Solutions",
+  title: "Our Best Software Solutions",
   exploreLink: "/ai-agency/services",
 };
 
 export const servicesData: Service[] = [
   {
-    id: "data-analytics",
-    title: "AI-Powered Data Analytics",
-    projectsAvailable: 34,
-    projectsDone: 20,
-    image: "/assets/imgs/gallery/image-17.webp",
+    id: "web-development",
+    title: "Custom Website Development",
+    projectsAvailable: 120,
+    projectsDone: 85,
+    image: "/assets/images/service/service_web_dev.png",
     description:
-      "Our team of AI experts, data scientists, and creative technologists work collaboratively to develop customized AI models that solve complex challenges, streamline operations, and enhance user experiences.",
+      "We build robust, scalable, and beautifully designed custom websites and web applications tailored exactly to your business goals and user needs.",
     detailLink: "/ai-agency/service-details",
   },
   {
-    id: "chatbots",
-    title: "AI Chatbots & Assistants",
-    projectsAvailable: 41,
+    id: "mobile-development",
+    title: "Custom Mobile Application Development",
+    projectsAvailable: 95,
+    projectsDone: 64,
+    image: "/assets/images/service/service_mobile_dev.png",
+    description:
+      "Our team engineers high-performance native and cross-platform mobile applications that provide seamless, engaging experiences on both iOS and Android devices.",
+    detailLink: "/ai-agency/service-details",
+  },
+  {
+    id: "social-marketing",
+    title: "Social Marketing & Digital Marketing",
+    projectsAvailable: 150,
+    projectsDone: 110,
+    image: "/assets/images/service/service_social_marketing.png",
+    description:
+      "We design data-driven social media marketing campaigns that elevate your brand presence, engage your target audience, and drive measurable conversions.",
+    detailLink: "/ai-agency/service-details",
+  },
+  {
+    id: "ai-research",
+    title: "AI base Research Application development",
+    projectsAvailable: 45,
     projectsDone: 28,
-    image: "/assets/imgs/gallery/image-47.webp",
+    image: "/assets/images/service/service_ai_research.png",
     description:
-      "Artificial Intelligence (AI) chatbots and virtual assistants have now widely revolutionized how businesses interact with customers and streamline operations.",
-    detailLink: "/ai-agency/service-details",
-  },
-  {
-    id: "predictive-modeling",
-    title: "Predictive AI Modeling",
-    projectsAvailable: 28,
-    projectsDone: 18,
-    image: "/assets/imgs/gallery/image-46.webp",
-    description:
-      "Predictive AI modeling leverages advanced algorithms and machine learning techniques to analyze historical data, identify patterns, and forecast future outcomes.",
-    detailLink: "/ai-agency/service-details",
-  },
-  {
-    id: "ux-ui",
-    title: "AI-Enhanced UX/UI Design",
-    projectsAvailable: 69,
-    projectsDone: 39,
-    image: "/assets/imgs/gallery/image-45.webp",
-    description:
-      "AI is transforming the field of UX/UI design, enabling designers to create user interfaces and experiences that are not only visually appealing but also highly intuitive and personalized.",
+      "We develop cutting-edge, AI-driven research applications that leverage machine learning and advanced data modeling to solve complex analytical challenges.",
     detailLink: "/ai-agency/service-details",
   },
 ];

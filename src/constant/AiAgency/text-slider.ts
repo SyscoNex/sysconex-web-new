@@ -11,43 +11,43 @@ const textSliderData: TextSliderData = {
   items: [
     {
       id: 1,
-      text: `Where Artificial Intelligence Meets Bold Creativity`,
-      suffix: `Empowering Brands Through Intelligent Design`,
+      text: `Where Cutting-Edge Tech Meets Bold Creativity`,
+      suffix: `Empowering Brands Through Software Development`,
     },
     {
       id: 2,
-      text: `Innovating the Future with AI-Driven Solutions`,
+      text: `Innovating the Future with Custom Digital Solutions`,
       suffix: `Redefining User Experiences`,
     },
     {
       id: 3,
-      text: `Intelligence. Impact. Innovation.`,
+      text: `Technology. Impact. Innovation.`,
       suffix: `We Build the Next Big Thing`,
     },
     {
       id: 4,
-      text: `Smarter Design Through Artificial Intelligence`,
-      suffix: `Fueling Brand Transformation`,
+      text: `Smarter Design Through Digital Transformation`,
+      suffix: `Fueling Brand Growth`,
     },
     {
       id: 5,
-      text: `Where Artificial Intelligence Meets Bold Creativity`,
-      suffix: `Empowering Brands Through Intelligent Design`,
+      text: `Where Cutting-Edge Tech Meets Bold Creativity`,
+      suffix: `Empowering Brands Through Software Development`,
     },
     {
       id: 6,
-      text: `Innovating the Future with AI-Driven Solutions`,
+      text: `Innovating the Future with Custom Digital Solutions`,
       suffix: `Redefining User Experiences`,
     },
     {
       id: 7,
-      text: `Intelligence. Impact. Innovation.`,
+      text: `Technology. Impact. Innovation.`,
       suffix: `We Build the Next Big Thing`,
     },
     {
       id: 8,
-      text: `Smarter Design Through Artificial Intelligence`,
-      suffix: `Fueling Brand Transformation`,
+      text: `Smarter Design Through Digital Transformation`,
+      suffix: `Fueling Brand Growth`,
     },
   ],
 };

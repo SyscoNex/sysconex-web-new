@@ -33,9 +33,9 @@ import type { Metadata } from "next";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "Averto - Creative Digital Agency NextJS Template",
+  title: "Sysconex - Software Development & Digital Agency",
   description:
-    "Averto is a modern and responsive Next.js template designed for agencies and businesses. Featuring a sleek design, fast performance, and SEO optimization, Averto provides a perfect foundation for building a high-quality website.",
+    "Sysconex is a leading software development and digital agency providing custom digital solutions, web design, and IT consulting.",
   keywords: [
     "NextJS template",
     "agency website template",
@@ -66,10 +66,19 @@ export const metadata: Metadata = {
     "business site design template",
     "fast website template",
   ],
-  creator: "PixaVation",
+  creator: "Sysconex",
   other: {
-    developer: "PixaVation",
+    developer: "Sysconex",
   },
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" }
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 interface RootLayoutProps {

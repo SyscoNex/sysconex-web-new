@@ -8,14 +8,14 @@ export interface AboutData {
   buttonText: string;
 }
 const aboutData = {
-  subtitle: "ABOUT AI",
-  title: "Shaping Our Future with Advanced AI Technologies",
+  subtitle: "ABOUT SYSCONEX",
+  title: "Shaping Your Digital Future with Custom Software Solutions",
   paragraphs: [
-    "We are passionate about harnessing the power of artificial intelligence to create smart, innovative solutions that drive growth and transformation.",
-    "Our team of AI experts, data scientists, and creative technologists work collaboratively to develop customized AI models that solve complex challenges, streamline operations, and enhance user experiences.",
+    "We are passionate about harnessing the power of cutting-edge technology to create smart, innovative digital solutions that drive business growth and transformation.",
+    "Our team of expert software engineers, UX/UI designers, and creative technologists work collaboratively to build custom web applications, mobile apps, and enterprise systems that solve complex challenges and enhance user experiences.",
   ],
   image: "/assets/imgs/shape/shape-23.webp",
-  imageAlt: "About AI",
+  imageAlt: "About Sysconex",
   aboutLink: "/ai-agency/about",
   buttonText: "About Agency",
 };

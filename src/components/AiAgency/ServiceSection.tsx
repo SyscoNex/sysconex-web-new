@@ -5,7 +5,7 @@ import { serviceSectionData, servicesData, Service } from "@/constant/AiAgency/s
 
 const ServiceSection: React.FC = () => {
   return (
-    <div className="service-area-4">
+    <div className="service-area-4" style={{ borderRadius: '40px', overflow: 'hidden', margin: '60px 20px' }}>
       <div className="service-area-4-inner section-spacing">
         <Container>
           <div className="section-header">
@@ -60,9 +60,6 @@ const ServiceSection: React.FC = () => {
                       <Nav.Link eventKey={service?.id} role="tab">
                         <div className="service-name">
                           <h2 className="title">{service?.title}</h2>
-                          <p className="text">
-                            {service?.projectsAvailable} Projects Available
-                          </p>
                         </div>
                       </Nav.Link>
                     </Nav.Item>
@@ -74,12 +71,10 @@ const ServiceSection: React.FC = () => {
                     <Tab.Pane key={service?.id} eventKey={service?.id}>
                       <div className="service-box-4">
                         <div className="thumb">
-                          <div className="meta">
-                            {service?.projectsDone} Projects Done
-                          </div>
                           <img
                             src={service?.image}
                             alt={service?.title || "Service image"}
+                            style={{ width: '600px', height: '354px', objectFit: 'cover' }}
                           />
                         </div>
                         <div className="content">
