@@ -71,9 +71,9 @@ export const portfolioItems: PortfolioItem[] = [
       ],
       images: [
         "/assets/images/case-studies/mrnlife.webp",
-        "/assets/imgs/gallery/image-27.webp",
-        "/assets/imgs/gallery/image-28.webp",
-        "/assets/imgs/gallery/image-29.webp",
+        // "/assets/imgs/gallery/image-27.webp",
+        // "/assets/imgs/gallery/image-28.webp",
+        // "/assets/imgs/gallery/image-29.webp",
       ],
     },
     problems: {
@@ -82,8 +82,8 @@ export const portfolioItems: PortfolioItem[] = [
         "The client was previously operating with a fragmented digital presence, leading to low user retention and a lack of brand cohesiveness. Their legacy platform was difficult to navigate and didn't reflect their premium market positioning.",
       ],
       images: [
-        "/assets/imgs/gallery/image-30.webp",
-        "/assets/imgs/gallery/image-31.webp",
+        //"/assets/imgs/gallery/image-30.webp",
+        // "/assets/imgs/gallery/image-31.webp",
       ],
     },
     solutions: {
@@ -114,9 +114,9 @@ export const portfolioItems: PortfolioItem[] = [
       ],
       images: [
         "/assets/images/case-studies/lixr.webp",
-        "/assets/imgs/gallery/image-27.webp",
-        "/assets/imgs/gallery/image-28.webp",
-        "/assets/imgs/gallery/image-29.webp",
+        //"/assets/imgs/gallery/image-27.webp",
+        //"/assets/imgs/gallery/image-28.webp",
+        //"/assets/imgs/gallery/image-29.webp",
       ],
     },
     problems: {
@@ -125,8 +125,8 @@ export const portfolioItems: PortfolioItem[] = [
         "Building a platform that fosters real-time collaboration across global teams required overcoming significant latency and data synchronization hurdles. The existing market solutions were too rigid and failed to offer the necessary customization.",
       ],
       images: [
-        "/assets/imgs/gallery/image-30.webp",
-        "/assets/imgs/gallery/image-31.webp",
+        //"/assets/imgs/gallery/image-30.webp",
+        //"/assets/imgs/gallery/image-31.webp",
       ],
     },
     solutions: {
@@ -157,9 +157,9 @@ export const portfolioItems: PortfolioItem[] = [
       ],
       images: [
         "/assets/images/case-studies/oceantech.webp",
-        "/assets/imgs/gallery/image-27.webp",
-        "/assets/imgs/gallery/image-28.webp",
-        "/assets/imgs/gallery/image-29.webp",
+        //"/assets/imgs/gallery/image-27.webp",
+        //"/assets/imgs/gallery/image-28.webp",
+        //"/assets/imgs/gallery/image-29.webp",
       ],
     },
     problems: {
@@ -168,8 +168,8 @@ export const portfolioItems: PortfolioItem[] = [
         "Ocean Tech's vast array of B2B services made it difficult for potential clients to quickly find the solutions they needed. The onboarding process was entirely manual, causing delays and lost conversion opportunities.",
       ],
       images: [
-        "/assets/imgs/gallery/image-30.webp",
-        "/assets/imgs/gallery/image-31.webp",
+        //"/assets/imgs/gallery/image-30.webp",
+        //"/assets/imgs/gallery/image-31.webp",
       ],
     },
     solutions: {
@@ -200,9 +200,9 @@ export const portfolioItems: PortfolioItem[] = [
       ],
       images: [
         "/assets/images/case-studies/accessara.webp",
-        "/assets/imgs/gallery/image-27.webp",
-        "/assets/imgs/gallery/image-28.webp",
-        "/assets/imgs/gallery/image-29.webp",
+        //"/assets/imgs/gallery/image-27.webp",
+        //"/assets/imgs/gallery/image-28.webp",
+        //"/assets/imgs/gallery/image-29.webp",
       ],
     },
     problems: {
@@ -211,8 +211,8 @@ export const portfolioItems: PortfolioItem[] = [
         "The brand suffered from a high bounce rate due to an outdated, text-heavy website that failed to communicate their core services effectively on mobile devices.",
       ],
       images: [
-        "/assets/imgs/gallery/image-30.webp",
-        "/assets/imgs/gallery/image-31.webp",
+        //"/assets/imgs/gallery/image-30.webp",
+        //"/assets/imgs/gallery/image-31.webp",
       ],
     },
     solutions: {
@@ -243,9 +243,9 @@ export const portfolioItems: PortfolioItem[] = [
       ],
       images: [
         "/assets/images/case-studies/crownstar.webp",
-        "/assets/imgs/gallery/image-27.webp",
-        "/assets/imgs/gallery/image-28.webp",
-        "/assets/imgs/gallery/image-29.webp",
+        //"/assets/imgs/gallery/image-27.webp",
+        //"/assets/imgs/gallery/image-28.webp",
+        //"/assets/imgs/gallery/image-29.webp",
       ],
     },
     problems: {
@@ -254,8 +254,8 @@ export const portfolioItems: PortfolioItem[] = [
         "Enterprise software is notorious for being clunky and difficult to learn. Crownstar's original suite suffered from deep, confusing navigation menus and a steep learning curve that hindered user adoption.",
       ],
       images: [
-        "/assets/imgs/gallery/image-30.webp",
-        "/assets/imgs/gallery/image-31.webp",
+        //"/assets/imgs/gallery/image-30.webp",
+        //"/assets/imgs/gallery/image-31.webp",
       ],
     },
     solutions: {
