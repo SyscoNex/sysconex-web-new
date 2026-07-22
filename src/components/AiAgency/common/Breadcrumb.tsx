@@ -7,7 +7,7 @@ interface BreadcrumbProps {
     pageName: string;
 }
 const Breadcrumb:React.FC<BreadcrumbProps> = ({ title, subTitle, pageName }) => {
-  const finalTitle = title?.trim() || "TITLE";
+  const finalTitle = title?.trim();
   const finalSubTitle = subTitle?.trim() || "Sub Title";
   const finalPageName = pageName?.trim() || "Page Name";
 
@@ -42,11 +42,13 @@ const Breadcrumb:React.FC<BreadcrumbProps> = ({ title, subTitle, pageName }) => 
             </div>
             <div className="section-content">
               <div className="section-title-wrapper">
-                <div className="title-wrapper">
-                  <h1 className="section-title char-anim">
-                    {finalTitle}
-                  </h1>
-                </div>
+                {finalTitle && (
+                  <div className="title-wrapper">
+                    <h1 className="section-title char-anim">
+                      {finalTitle}
+                    </h1>
+                  </div>
+                )}
                 <div className="subtitle-wrapper">
                   <span
                     className="section-subtitle char-anim"

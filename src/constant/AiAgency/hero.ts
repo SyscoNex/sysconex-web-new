@@ -27,7 +27,7 @@ const heroData: HeroData = {
     titleSpanTwo: "Sysconex",
     subtitle: "Empowering businesses through cutting-edge software development and digital innovation",
     primaryBtnText: "Get Started",
-    primaryBtnLink: "/ai-agency/contact",
+    primaryBtnLink: "https://cal.com/sysconex/30min",
     secondaryBtnText: "Contact Us",
     secondaryBtnLink: "/ai-agency/contact",
     brandTitle: "100+ Trusted Clients Over Worldwide",

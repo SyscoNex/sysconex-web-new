@@ -14,27 +14,27 @@ export interface IChooseUs {
 }
 
 const chooseUsData:IChooseUs = {
-  subtitle: "Why Choose Us",
-  title: "We give you the best solutions",
-  image: "/assets/imgs/gallery/image-20.webp",
+  subtitle: "Why Choose Sysconex",
+  title: "We architect your digital success",
+  image: "/assets/imgs/gallery/sysconex_choose_us.png",
   features: [
     {
       id: 1,
       img: "/assets/imgs/shape/shape-37.webp",
-      title: "Proven Marketing",
-      text: "We offer you a comprehensive range of digital marketing services designed to help your business thrive."
+      title: "Cutting-Edge Technology",
+      text: "We leverage the latest advancements in AI and modern frameworks to build robust, highly scalable platforms."
     },
     {
       id: 2,
       img: "/assets/imgs/shape/shape-38.webp",
-      title: "Brand Strategy",
-      text: "We offer you a comprehensive range of digital marketing services designed to help your business thrive."
+      title: "Strategic Innovation",
+      text: "We partner with you to uncover new digital opportunities, optimize workflows, and drive true business value."
     },
     {
       id: 3,
       img: "/assets/imgs/shape/shape-39.webp",
-      title: "Winning Design",
-      text: "We offer you a comprehensive range of digital marketing services designed to help your business thrive."
+      title: "Premium Design",
+      text: "Our award-winning UI/UX team creates breathtaking digital experiences that captivate users and elevate your brand."
     }
   ]
 };

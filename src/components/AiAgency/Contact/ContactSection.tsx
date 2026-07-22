@@ -63,7 +63,7 @@ const ContactSection: React.FC<ContactProps> = ({ data: contactData }) => {
 
   return (
     <>
-      <section className="contact-area">
+      <section className="contact-area" style={{ borderRadius: "40px", overflow: "hidden", margin: "0 10px" }}>
         <div className="container">
           <div className="contact-area-inner section-spacing">
             <div className="section-content-wrapper">

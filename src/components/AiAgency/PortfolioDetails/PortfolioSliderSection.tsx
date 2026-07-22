@@ -2,12 +2,11 @@
 
 import React from "react";
 import Link from "next/link";
-import { IPortfolioSliderData } from "@/constant/AiAgency/PortfolioDetails/portfolio-data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
 
 interface IPortfolioSliderProps {
-  data: IPortfolioSliderData[];
+  data: any[];
 }
 const PortfolioSliderSection: React.FC<IPortfolioSliderProps> = ({
   data: portfolioSliderData,
@@ -58,29 +57,27 @@ const PortfolioSliderSection: React.FC<IPortfolioSliderProps> = ({
                 className="work-slider"
               >
                 {portfolioSliderData?.map(
-                  (project: IPortfolioSliderData, index: number) => (
+                  (project: any, index: number) => (
                     <SwiperSlide key={index}>
                       <div className="work-box-9">
                         <div className="thumb">
                           <div className="meta">
                             {project?.tags?.map(
                               (tag: string, tagIndex: number) => (
-                                <Link
-                                  className="tag"
-                                  href={project?.link}
-                                  key={tagIndex}
-                                >
+                                <span className="tag" key={tagIndex}>
                                   {tag}
-                                </Link>
+                                </span>
                               )
                             )}
                           </div>
-                          <Link href={project?.link}>
+                          <Link href={`/ai-agency/portfolio/${project?.slug}`}>
                             <img src={project?.image} alt="project image" />
                           </Link>
                           <div className="content">
                             <h3 className="title">
-                              <Link href={project?.link}>{project?.title}</Link>
+                              <Link href={`/ai-agency/portfolio/${project?.slug}`}>
+                                {project?.title}
+                              </Link>
                             </h3>
                           </div>
                         </div>

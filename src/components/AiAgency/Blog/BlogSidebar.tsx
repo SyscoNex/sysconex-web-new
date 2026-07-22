@@ -1,45 +1,40 @@
-import {
-  authorInfo,
-  IRecentBlog,
-  ISocialLink,
-  popularTags,
-  recentBlogs,
-} from "@/constant/AiAgency/blog/sidebarData";
+"use client";
+
+import { popularTags } from "@/constant/AiAgency/blog/sidebarData";
+import blogData from "@/constant/AiAgency/blog/blogData";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const BlogSidebar: React.FC = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+  const router = useRouter();
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/ai-agency/blog?search=${encodeURIComponent(searchQuery)}`);
+    } else {
+      router.push(`/ai-agency/blog`);
+    }
+  };
+
+  const recentBlogs = blogData.slice(0, 3);
+
   return (
     <div className="blog-sidebar">
-      <div className="blog-sidebar-box fade-anim">
-        {/* Author Info Box */}
-        <div className="author-info">
-          <div className="thumb">
-            <img src={authorInfo?.image} alt="Author" />
-          </div>
-          <div className="content">
-            <h3 className="name">{authorInfo?.name}</h3>
-            <span className="designation">{authorInfo?.designation}</span>
-            <p className="text">{authorInfo?.text}</p>
-            <div className="social-links">
-              {authorInfo?.socialLinks.map(
-                (link: ISocialLink, index: number) => (
-                  <Link href={link?.url} key={index}>
-                    <i className={`fa-brands ${link?.icon}`}></i>
-                  </Link>
-                )
-              )}
-            </div>
-          </div>
-        </div>
-      </div>
       {/* Search Bar Box */}
       <div className="blog-sidebar-box fade-anim">
         <h3 className="title-box">Search bar</h3>
         <div className="search-wrapper">
-          <form action="#" className="search-form">
+          <form onSubmit={handleSearch} className="search-form">
             <div className="input-field">
-              <input type="text" placeholder="Search anything" />
+              <input
+                type="text"
+                placeholder="Search anything"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
               <button type="submit" className="search-btn">
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
@@ -51,20 +46,20 @@ const BlogSidebar: React.FC = () => {
       <div className="blog-sidebar-box fade-anim">
         <h3 className="title-box">Recent blogs</h3>
         <div className="blogs-wrapper">
-          {recentBlogs.map((blog: IRecentBlog, idx: number) => (
-            <article className="blog" key={idx}>
+          {recentBlogs.map((blog) => (
+            <article className="blog" key={blog.id}>
               <div className="thumb">
-                <a href={blog?.url}>
-                  <img src={blog?.image} alt="Recent Blog" />
-                </a>
+                <Link href={blog.url}>
+                  <img src={blog.image} alt="Recent Blog" style={{ width: "95px", height: "95px", objectFit: "cover" }} />
+                </Link>
               </div>
               <div className="content-wrapper">
                 <div className="content">
                   <div className="meta">
-                    <span className="date">{blog?.date}</span>
+                    <span className="date">{blog.date}</span>
                   </div>
                   <h2 className="title">
-                    <a href={blog?.url}>{blog?.title}</a>
+                    <Link href={blog.url}>{blog.title}</Link>
                   </h2>
                 </div>
               </div>
@@ -77,7 +72,7 @@ const BlogSidebar: React.FC = () => {
         <h3 className="title-box">Popular tags</h3>
         <div className="tags-wrapper">
           {popularTags.map((tag: string, idx: number) => (
-            <Link href="/ai-agency/blog" key={idx}>
+            <Link href={`/ai-agency/blog?search=${encodeURIComponent(tag)}`} key={idx}>
               {tag}
             </Link>
           ))}

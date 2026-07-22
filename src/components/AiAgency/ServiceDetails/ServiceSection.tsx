@@ -75,6 +75,7 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({
                     className="fade-anim"
                     src={img.src}
                     alt={img.alt || "image"}
+                    style={{ width: "630px", height: "440px", objectFit: "cover" }}
                   />
                 ) : null
               )}

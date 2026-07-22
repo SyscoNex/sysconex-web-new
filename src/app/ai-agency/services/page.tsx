@@ -5,7 +5,7 @@ import ProcessSection from "@/components/AiAgency/ProcessSection";
 import ServiceSection from "@/components/AiAgency/ServiceSection";
 import ChooseUsSection from "@/components/AiAgency/common/ChooseUsSection";
 import TestimonialSection from "@/components/AiAgency/TestimonialSection";
-import Footer from "@/components/CreativeAgency/Footer";
+import Footer from "@/components/AiAgency/Footer";
 import Header from "@/components/AiAgency/Header";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
@@ -46,7 +46,7 @@ const Home = (): ReactElement => {
       <SmoothScroll>
         <main>
           <Breadcrumb
-            title="AGENCY"
+            title="Sysconex"
             subTitle="Services"
             pageName="AGENCY SERVICES"
           />

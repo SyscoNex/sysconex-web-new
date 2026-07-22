@@ -17,12 +17,7 @@ const ContactMetaSection:React.FC = () => {
                   <div className="meta-list">
                     <ul>
                       <li>
-                        <Link href="mailto:info@averto.com">info@averto.com</Link>
-                      </li>
-                      <li>
-                        <Link href="mailto:example@avertogmail.com">
-                          example@avertogmail.com
-                        </Link>
+                        <Link href="mailto:info@sysconex.com">info@sysconex.com</Link>
                       </li>
                     </ul>
                   </div>
@@ -37,10 +32,7 @@ const ContactMetaSection:React.FC = () => {
                   <div className="meta-list">
                     <ul>
                       <li>
-                        <Link href="tel:+12446654852">+1244-665-4852</Link>
-                      </li>
-                      <li>
-                        <Link href="tel:+12555656856">+1255-565-6856</Link>
+                        <Link href="tel:+94761176061">+94 76 117 6061</Link>
                       </li>
                     </ul>
                   </div>
@@ -51,11 +43,13 @@ const ContactMetaSection:React.FC = () => {
                   <img src="/assets/imgs/icon/icon-24.webp" alt="image" />
                 </div>
                 <div className="content">
-                  <h3 className="title">Visit Us</h3>
+                  <h3 className="title">Meet Us</h3>
                   <div className="meta-list">
                     <ul>
                       <li>
-                        410 Sandtown, California <br /> 56044, USA
+                        <Link href="https://cal.com/sysconex/30min" target="_blank" rel="noopener noreferrer">
+                          Schedule a Meeting
+                        </Link>
                       </li>
                     </ul>
                   </div>

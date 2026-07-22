@@ -5,7 +5,7 @@ import ChooseUsSection from "@/components/AiAgency/common/ChooseUsSection";
 import ContactMetaSection from "@/components/AiAgency/Contact/ContactMetaSection";
 import ContactSection from "@/components/AiAgency/Contact/ContactSection";
 import Header from "@/components/AiAgency/Header";
-import Footer from "@/components/CreativeAgency/Footer";
+import Footer from "@/components/AiAgency/Footer";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
 // all data
@@ -48,7 +48,7 @@ const Home = (): ReactElement => {
       <SmoothScroll>
         <main>
           <Breadcrumb
-            title="AGENCY"
+            title="Sysconex"
             subTitle="Contact"
             pageName="AGENCY CONTACT"
           />

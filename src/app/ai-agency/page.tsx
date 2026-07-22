@@ -4,7 +4,7 @@ import Header from "@/components/AiAgency/Header";
 import AboutSection from "@/components/AiAgency/AboutSection";
 import AboutTwoSection from "@/components/AiAgency/AboutTwoSection";
 import BlogSection from "@/components/AiAgency/BlogSection";
-import Footer from "@/components/CreativeAgency/Footer";
+import Footer from "@/components/AiAgency/Footer";
 import HeroSection from "@/components/AiAgency/HeroSection";
 import ProcessSection from "@/components/AiAgency/ProcessSection";
 import ServiceSection from "@/components/AiAgency/ServiceSection";

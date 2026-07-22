@@ -5,6 +5,7 @@ import Link from "next/link";
 
 interface Project {
   id: number;
+  slug?: string;
   title: string;
   tags: string[];
   image: string;
@@ -31,6 +32,7 @@ const defaultWork: WorkData = {
   projects: [
     {
       id: 1,
+      slug: "luxe-co",
       title: "Brand identity overhaul for Luxe Co.",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-1.webp",
@@ -38,6 +40,7 @@ const defaultWork: WorkData = {
     },
     {
       id: 2,
+      slug: "shopy",
       title: "E-Commerce platform design for shopy",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-2.webp",
@@ -45,6 +48,7 @@ const defaultWork: WorkData = {
     },
     {
       id: 3,
+      slug: "fitpro",
       title: "Mobile app design for FitPro agency",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-3.webp",
@@ -52,6 +56,7 @@ const defaultWork: WorkData = {
     },
     {
       id: 4,
+      slug: "flexwear",
       title: "Digital Ad campaign for FlexWear",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-4.webp",
@@ -59,6 +64,7 @@ const defaultWork: WorkData = {
     },
     {
       id: 5,
+      slug: "lumina",
       title: "Canvas of creations app design for Lumina Studio",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-12.webp",
@@ -66,6 +72,7 @@ const defaultWork: WorkData = {
     },
     {
       id: 6,
+      slug: "eclipse",
       title: "Experiences in motion with Eclipse app",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-13.webp",
@@ -73,6 +80,7 @@ const defaultWork: WorkData = {
     },
     {
       id: 7,
+      slug: "echo-tech",
       title: "Echo Tech Solutions web development",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-14.webp",
@@ -80,6 +88,7 @@ const defaultWork: WorkData = {
     },
     {
       id: 8,
+      slug: "wave-media",
       title: "Innovative digital trails of Wave Media",
       tags: ["BRANDING", "PRODUCT"],
       image: "/assets/imgs/project/project-15.webp",
@@ -129,12 +138,12 @@ const WorkSlider = ({ work = defaultWork }: WorkSliderProps) => {
                     </span>
                   ))}
                 </div>
-                <Link href={item?.link || "#"}>
+                <Link href={item?.slug ? `/ai-agency/portfolio/${item.slug}` : item?.link || "#"}>
                   <img src={item?.image} alt={item?.title || "Project image"} />
                 </Link>
                 <div className="content">
                   <h3 className="title">
-                    <Link href={item?.link || "#"}>{item?.title}</Link>
+                    <Link href={item?.slug ? `/ai-agency/portfolio/${item.slug}` : item?.link || "#"}>{item?.title}</Link>
                   </h3>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 import BlogSection from "@/components/AiAgency/Blog/BlogSection";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import Header from "@/components/AiAgency/Header";
-import Footer from "@/components/CreativeAgency/Footer";
+import Footer from "@/components/AiAgency/Footer";
 
 // all data
 import blogData from "@/constant/AiAgency/blog/blogData";
@@ -42,7 +42,20 @@ export const metadata: Metadata = {
   },
 };
 
-const Home = (): ReactElement => {
+type Props = {
+  searchParams: Promise<{ search?: string }>;
+};
+
+const Home = async ({ searchParams }: Props): Promise<ReactElement> => {
+  const { search } = await searchParams;
+  
+  const filteredData = search 
+    ? blogData.filter(blog => 
+        blog.title.toLowerCase().includes(search.toLowerCase()) || 
+        blog.text.toLowerCase().includes(search.toLowerCase())
+      )
+    : blogData;
+
   return (
     <div className="body-wrapper body-inner-page">
       <Header />
@@ -50,10 +63,10 @@ const Home = (): ReactElement => {
         <main>
           <Breadcrumb
             title="BLOGS"
-            subTitle="Standard"
-            pageName="BLOGS STANDARD"
+            subTitle="Knowledge Hub"
+            pageName="ALL BLOGS"
           />
-          <BlogSection data={blogData}/>
+          <BlogSection data={filteredData}/>
         </main>
         <Footer />
       </SmoothScroll>

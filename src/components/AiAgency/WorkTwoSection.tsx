@@ -91,7 +91,7 @@ const WorkSection: React.FC<WorkProps> = ({
                         ))}
                       </div>
                       <div className="img_anim_reveal" suppressHydrationWarning={true}>
-                        <Link href={item?.link || "#"}>
+                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>
                           <img
                             src={item?.image}
                             alt={item?.title || "Project image"}
@@ -105,26 +105,26 @@ const WorkSection: React.FC<WorkProps> = ({
                         <span className="shape">/</span>
                       </span>
                       <h3 className="title">
-                        <Link href={item?.link || "#"}>{item?.title}</Link>
+                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>{item?.title}</Link>
                       </h3>
                       <div
                         className={`t-btn-group ${type === 7 ? "d-none" : ""}`}
                       >
                         <Link
                           className="t-btn t-btn-circle"
-                          href={item?.link || "#"}
+                          href={`/ai-agency/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>
                         <Link
                           className="t-btn t-btn-primary"
-                          href={item?.link || "#"}
+                          href={`/ai-agency/portfolio/${item?.slug}`}
                         >
                           View Full Project
                         </Link>
                         <Link
                           className="t-btn t-btn-circle"
-                          href={item?.link || "#"}
+                          href={`/ai-agency/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>
@@ -222,7 +222,7 @@ const WorkSection: React.FC<WorkProps> = ({
                         ))}
                       </div>
                       <div className="img_anim_reveal" suppressHydrationWarning={true}>
-                        <Link href={item?.link || "#"}>
+                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>
                           <img
                             src={item?.image}
                             alt={item?.title || "Project image"}
@@ -236,24 +236,24 @@ const WorkSection: React.FC<WorkProps> = ({
                         <span className="shape">/</span>
                       </span>
                       <h3 className="title">
-                        <Link href={item?.link || "#"}>{item?.title}</Link>
+                        <Link href={`/ai-agency/portfolio/${item?.slug}`}>{item?.title}</Link>
                       </h3>
                       <div className="t-btn-group">
                         <Link
                           className="t-btn t-btn-circle"
-                          href={item?.link || "#"}
+                          href={`/ai-agency/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>
                         <Link
                           className="t-btn t-btn-primary"
-                          href={item?.link || "#"}
+                          href={`/ai-agency/portfolio/${item?.slug}`}
                         >
                           View Full Project
                         </Link>
                         <Link
                           className="t-btn t-btn-circle"
-                          href={item?.link || "#"}
+                          href={`/ai-agency/portfolio/${item?.slug}`}
                         >
                           <i className="fa-solid fa-arrow-right"></i>
                         </Link>

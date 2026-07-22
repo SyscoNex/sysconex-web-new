@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Breadcrumb from "@/components/AiAgency/common/Breadcrumb";
 import TeamSection from "@/components/AiAgency/TeamTwoSection";
 import ProcessSection from "@/components/AiAgency/ProcessSection";
-import Footer from "@/components/CreativeAgency/Footer";
+import Footer from "@/components/AiAgency/Footer";
 import Header from "@/components/AiAgency/Header";
 import TestimonialSlider from "@/components/AiAgency/TestimonialSection";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
@@ -48,7 +48,7 @@ const Home = (): ReactElement => {
       <SmoothScroll>
         <main>
           <Breadcrumb
-            title="AGENCY"
+            title="Sysconex"
             subTitle="Members"
             pageName="AGENCY MEMBERS"
           />

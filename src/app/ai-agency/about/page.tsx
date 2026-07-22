@@ -7,7 +7,7 @@ import BrandSection from "@/components/AiAgency/BrandSection";
 import TeamsSection from "@/components/AiAgency/TeamSection";
 import TextSliderSection from "@/components/AiAgency/TextSliderSection";
 import BlogSection from "@/components/AiAgency/BlogSection";
-import Footer from "@/components/CreativeAgency/Footer";
+import Footer from "@/components/AiAgency/Footer";
 import Header from "@/components/AiAgency/Header";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
 
@@ -57,7 +57,7 @@ const AboutPage = (): ReactElement => {
       <Header />
       <SmoothScroll>
         <main>
-          <Breadcrumb title="ABOUT" subTitle="Agency" pageName="ABOUT AGENCY" />
+          <Breadcrumb title="ABOUT" subTitle="Sysconex" pageName="ABOUT AGENCY" />
           <AboutSection data={aboutData} />
           <VideoSection data={videoData} />
           <BrandSection data={brandData} brandSix={true} />

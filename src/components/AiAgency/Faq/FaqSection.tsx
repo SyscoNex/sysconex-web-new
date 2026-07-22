@@ -4,14 +4,16 @@ import { Accordion } from "react-bootstrap";
 
 interface FaqProps {
   type?: number;
-  imageSrc?: number;
+  imageSrc?: number | string;
   data: IFaq[];
 }
 
-const FaqSection:React.FC<FaqProps> = ({ type, imageSrc: img,data:faqData }) => {
-  const imageSrc1 = "/assets/imgs/gallery/image-21.webp";
-  const imageSrc2 = "/assets/imgs/gallery/image-22.webp";
-  const imageSrc = img === 2 ? imageSrc2 : imageSrc1;
+const FaqSection:React.FC<FaqProps> = ({ type, imageSrc: img, data: faqData }) => {
+  const defaultImageSrc1 = "/assets/imgs/gallery/image-21.webp";
+  const defaultImageSrc2 = "/assets/imgs/gallery/image-22.webp";
+  const finalImageSrc = typeof img === 'string' 
+    ? img 
+    : (img === 2 ? defaultImageSrc2 : defaultImageSrc1);
 
   return (
     <section className={`${type === 2 ? "faq-area-2" : "faq-area"} `}>
@@ -26,7 +28,7 @@ const FaqSection:React.FC<FaqProps> = ({ type, imageSrc: img,data:faqData }) => 
               className={`faq-thumb fade-anim order-${type === 2 ? 1 : 0}`}
               data-direction={type === 2 ? "right" : "left"}
             >
-              <img src={imageSrc} alt="FAQ Image" />
+              <img src={finalImageSrc} alt="FAQ Image" />
             </div>
             <div
               className={`section-content fade-anim order-${

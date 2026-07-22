@@ -5,7 +5,7 @@ import { serviceSectionData, servicesData, Service } from "@/constant/AiAgency/s
 
 const ServiceSection: React.FC = () => {
   return (
-    <div className="service-area-4" style={{ borderRadius: '40px', overflow: 'hidden', margin: '60px 20px' }}>
+    <div className="service-area-4" style={{ borderRadius: '40px', overflow: 'hidden', margin: '60px 10px' }}>
       <div className="service-area-4-inner section-spacing">
         <Container>
           <div className="section-header">
@@ -49,15 +49,15 @@ const ServiceSection: React.FC = () => {
         <div className="services-wrapper-box fade-anim" suppressHydrationWarning={true}>
           <Container>
             <div className="services-wrapper">
-              <Tab.Container defaultActiveKey={servicesData?.[0]?.id}>
+              <Tab.Container defaultActiveKey={servicesData?.[0]?.slug}>
                 <Nav
                   variant="pills"
                   className="flex-column nav nav-pills"
                   role="tablist"
                 >
                   {servicesData?.map((service: Service) => (
-                    <Nav.Item key={service?.id}>
-                      <Nav.Link eventKey={service?.id} role="tab">
+                    <Nav.Item key={service?.slug}>
+                      <Nav.Link eventKey={service?.slug} role="tab">
                         <div className="service-name">
                           <h2 className="title">{service?.title}</h2>
                         </div>
@@ -68,7 +68,7 @@ const ServiceSection: React.FC = () => {
 
                 <Tab.Content id="pills-tabContent">
                   {servicesData?.map((service) => (
-                    <Tab.Pane key={service?.id} eventKey={service?.id}>
+                    <Tab.Pane key={service?.slug} eventKey={service?.slug}>
                       <div className="service-box-4">
                         <div className="thumb">
                           <img
@@ -83,19 +83,19 @@ const ServiceSection: React.FC = () => {
                           <div className="t-btn-group">
                             <Link
                               className="t-btn t-btn-circle"
-                              href={service?.detailLink || "#"}
+                              href={`/ai-agency/services/${service?.slug}`}
                             >
                               <i className="fa-solid fa-arrow-right"></i>
                             </Link>
                             <Link
                               className="t-btn t-btn-primary"
-                              href={service?.detailLink || "#"}
+                              href={`/ai-agency/services/${service?.slug}`}
                             >
                               View Details
                             </Link>
                             <Link
                               className="t-btn t-btn-circle"
-                              href={service?.detailLink || "#"}
+                              href={`/ai-agency/services/${service?.slug}`}
                             >
                               <i className="fa-solid fa-arrow-right"></i>
                             </Link>

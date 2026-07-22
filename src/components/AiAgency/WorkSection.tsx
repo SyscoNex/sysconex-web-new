@@ -98,19 +98,19 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                     <div className="t-btn-group">
                       <Link
                         className="t-btn t-btn-circle"
-                        href={item?.link || "#"}
+                        href={`/ai-agency/portfolio/${item?.slug}`}
                       >
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                       <Link
                         className="t-btn t-btn-primary"
-                        href={item?.link || "#"}
+                        href={`/ai-agency/portfolio/${item?.slug}`}
                       >
                         Full Project
                       </Link>
                       <Link
                         className="t-btn t-btn-circle"
-                        href={item?.link || "#"}
+                        href={`/ai-agency/portfolio/${item?.slug}`}
                       >
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>

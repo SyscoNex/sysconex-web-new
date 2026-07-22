@@ -25,23 +25,22 @@ const contactData: IContact = {
   subtitle: "Let’s connect",
   title: "Let’s work together",
   description:
-    "People know what an FAQ is, so make that your page title. Don’t over complicate thing have calling it’s good to know or more info.",
+    "Ready to accelerate your business with cutting-edge AI solutions? Reach out to our team of experts today and let's start building the future together.",
   contactInfo: [
     {
       icon: "/assets/imgs/icon/icon-17.webp",
-      label: "example@avertog.com",
-      link: "mailto:example@avertog.com",
+      label: "info@sysconex.com",
+      link: "mailto:info@sysconex.com",
     },
     {
       icon: "/assets/imgs/icon/icon-18.webp",
-      label: "+1 287-366-566",
-      link: "tel:+1287366566",
+      label: "+94 76 117 6061",
+      link: "tel:+94761176061",
     },
   ],
   socialLinks: [
-    { icon: "fa-facebook-f", link: "#" },
-    { icon: "fa-twitter", link: "#" },
-    { icon: "fa-linkedin-in", link: "#" },
+    { icon: "fa-facebook-f", link: "https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/" },
+    { icon: "fa-linkedin-in", link: "https://lk.linkedin.com/company/sysconex-solutions" },
   ],
   formFields: [
     {
