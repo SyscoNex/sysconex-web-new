@@ -32,7 +32,7 @@ export const generateMetadata = async ({ params }: { params: Promise<{ slug: str
     ],
     creator: "sysconex",
     openGraph: {
-      images: ['/assets/imgs/logo/logo-dark.webp']
+      images: ['/assets/images/logo.png']
     },
     other: {
       developer: "sysconex",

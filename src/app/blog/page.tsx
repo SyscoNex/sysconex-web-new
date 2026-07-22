@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 ],
   creator: "sysconex",
   openGraph: {
-    images: ['/assets/imgs/logo/logo-dark.webp']
+    images: ['/assets/images/logo.png']
   },
   other: {
     developer: "sysconex",
