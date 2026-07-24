@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import {IChooseUs,IFeature} from '@/constant/AiAgency/common/choose-us';
 
 interface ChooseUsProps {
@@ -14,7 +15,7 @@ const ChooseUsSection:React.FC<ChooseUsProps> = ({chooseUSTwo,data:chooseUsData}
         <div className={chooseUSTwo ? 'choose-area-2-inner section-spacing' : 'choose-area-inner section-spacing-top'}>
           <div className="section-content-wrapper">
             <div className="choose-thumb fade-anim" data-direction="left">
-              <img src={image} alt="image" />
+              <Image src={image} alt="image" width={600} height={600} style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="section-content fade-anim" data-direction="right">
               <div className="section-title-wrapper">
@@ -30,7 +31,7 @@ const ChooseUsSection:React.FC<ChooseUsProps> = ({chooseUSTwo,data:chooseUsData}
                   {features.map((feature:IFeature) => (
                     <div className="feature-box" key={feature?.id}>
                       <div className="thumb">
-                        <img src={feature?.img} alt="feature" />
+                        <Image src={feature?.img} alt="feature" width={50} height={50} style={{ width: 'auto', height: 'auto' }} />
                       </div>
                       <div className="content">
                         <h3 className="title">{feature?.title}</h3>
