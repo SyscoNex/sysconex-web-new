@@ -16,6 +16,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                 alt={aboutData?.imageAlt || "About Image"}
                 width={620}
                 height={520}
+                sizes="(max-width: 768px) 100vw, 620px"
                 loading="lazy"
                 style={{ width: "100%", height: "auto" }}
               />

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -100,7 +101,14 @@ const TestimonialSection: React.FC<TestimonialSectionProps> = ({
                           </div>
                           <div className="author">
                             <div className="avatar">
-                              <img src={item?.avatar} alt={item?.name} />
+                              <Image
+                                src={item?.avatar}
+                                alt={item?.name || "Testimonial author"}
+                                width={90}
+                                height={90}
+                                loading="lazy"
+                                style={{ borderRadius: "50%", objectFit: "cover" }}
+                              />
                             </div>
                             <div className="meta">
                               <h3 className="name">{item?.name}</h3>

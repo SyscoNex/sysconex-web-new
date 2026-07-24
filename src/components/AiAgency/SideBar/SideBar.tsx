@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import sidebarData from "@/constant/AiAgency/sidebar/sidebarData";
 import NestedAccordion from "@/components/AiAgency/common/NestedAccordion";
 
@@ -25,7 +26,13 @@ const Sidebar = ({
             <div className="offset-widget offset-header">
               <div className="offset-logo">
                 <Link href="/">
-                  <img src={sidebarData.logo} alt="site logo" />
+                  <Image
+                    src={sidebarData.logo}
+                    alt="Sysconex logo"
+                    width={180}
+                    height={60}
+                    style={{ maxHeight: "60px", width: "auto" }}
+                  />
                 </Link>
               </div>
               <button

@@ -111,7 +111,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
                     {heroData?.brands?.map((brand: IBrand, index: number) => (
                       <SwiperSlide key={index} style={{ width: 'auto', padding: '0 25px' }}>
                         <div className="brand-item-4">
-                          <img
+                          <Image
                             src={brand?.image}
                             alt={`brand-${index}`}
                             loading="lazy"
