@@ -65,10 +65,10 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
               </div>
 
               <div className="completed-projects move-anim" suppressHydrationWarning={true}>
-                <span className="number">
+                <span className="number" suppressHydrationWarning={true}>
                   {workSectionContent?.completedProjects}
                 </span>
-                <p className="text">{workSectionContent?.projectsText}</p>
+                <p className="text" suppressHydrationWarning={true}>{workSectionContent?.projectsText}</p>
               </div>
             </div>
           )}

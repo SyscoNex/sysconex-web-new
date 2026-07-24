@@ -3,12 +3,9 @@ import "./globals.css";
 
 // Bootstrap css
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
 
 // FontAwesome Icons css
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import "../lib/fontawesome";
 
 // yet-another-react-lightbox css
 import "yet-another-react-lightbox/styles.css";
@@ -99,50 +96,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&family=Poppins:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap"
         />
-        <link
-          rel="preload"
-          href="/_next/static/media/fa-solid-900.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/_next/static/media/fa-brands-400.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/_next/static/media/fa-regular-400.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <style dangerouslySetInnerHTML={{ __html: `
-          @font-face {
-            font-family: "Font Awesome 6 Free";
-            font-style: normal;
-            font-weight: 900;
-            font-display: swap;
-            src: url("/_next/static/media/fa-solid-900.woff2") format("woff2");
-          }
-          @font-face {
-            font-family: "Font Awesome 6 Free";
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url("/_next/static/media/fa-regular-400.woff2") format("woff2");
-          }
-          @font-face {
-            font-family: "Font Awesome 6 Brands";
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url("/_next/static/media/fa-brands-400.woff2") format("woff2");
-          }
-        `}} />
       </head>
       <body suppressHydrationWarning={true}>
         <AnimationProvider>{children}</AnimationProvider>

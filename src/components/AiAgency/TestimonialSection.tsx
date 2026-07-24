@@ -57,13 +57,15 @@ const TestimonialSection: React.FC<TestimonialSectionProps> = ({
                     <div
                       className="testimonial-4-button-prev slide-nav-button"
                       role="button"
+                      aria-label="Previous testimonial"
                       ref={prevRef}
                     >
-                      <i className="fa-solid fa-arrow-left"></i>
+                      <i className="fa-solid fa-arrow-left" aria-hidden="true"></i>
                     </div>
                     <div
                       className="testimonial-4-button-next slide-nav-button"
                       role="button"
+                      aria-label="Next testimonial"
                       ref={nextRef}
                     >
                       <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
