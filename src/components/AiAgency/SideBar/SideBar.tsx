@@ -32,6 +32,7 @@ const Sidebar = ({
                 id="side-info-close"
                 className="side-info-close"
                 onClick={handleSidebar}
+                aria-label="Close sidebar"
               >
                 <i className={sidebarData.closeIcon}></i>
               </button>
@@ -50,6 +51,7 @@ const Sidebar = ({
                 <Link
                   className="t-btn t-btn-circle"
                   href={sidebarData?.cta?.href}
+                  aria-label={sidebarData?.cta?.text || "Contact Us"}
                 >
                   <i className={sidebarData?.ctaIcon}></i>
                 </Link>
@@ -62,6 +64,7 @@ const Sidebar = ({
                 <Link
                   className="t-btn t-btn-circle"
                   href={sidebarData?.cta?.href}
+                  aria-label={sidebarData?.cta?.text || "Contact Us"}
                 >
                   <i className={sidebarData?.ctaIcon}></i>
                 </Link>

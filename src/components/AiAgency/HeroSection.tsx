@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { HeroData, IBrand } from "@/constant/AiAgency/hero";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -14,26 +15,40 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
       <div className="hero-area-4-inner section-spacing-top">
         {/* Background and Shapes */}
         <div className="area-bg">
-          <img src={heroData?.bgImage} alt="bg" />
+          <Image
+            src={heroData?.bgImage}
+            alt="bg"
+            fill
+            priority={true}
+            style={{ objectFit: "cover" }}
+            sizes="100vw"
+            quality={85}
+          />
         </div>
         <div className="area-shape-1">
-          <img
+          <Image
             className="fade-anim"
             data-direction="left"
             data-delay="1.05"
             src={heroData?.shape1}
             alt="shape"
+            width={600}
+            height={600}
             suppressHydrationWarning={true}
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
         <div className="area-shape-2">
-          <img
+          <Image
             className="fade-anim"
             data-direction="right"
             data-delay="1.20"
             src={heroData?.shape2}
             alt="shape"
+            width={600}
+            height={600}
             suppressHydrationWarning={true}
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
 
@@ -96,9 +111,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
                     {heroData?.brands?.map((brand: IBrand, index: number) => (
                       <SwiperSlide key={index} style={{ width: 'auto', padding: '0 25px' }}>
                         <div className="brand-item-4">
-                          <img 
-                            src={brand?.image} 
-                            alt={`brand-${index}`} 
+                          <img
+                            src={brand?.image}
+                            alt={`brand-${index}`}
+                            loading="lazy"
+                            width={120}
+                            height={50}
                             style={{ maxHeight: '50px', width: 'auto', objectFit: 'contain' }}
                           />
                         </div>

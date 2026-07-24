@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { BlogData } from "@/constant/AiAgency/blog";
 
 interface BlogSectionProps {
@@ -24,6 +25,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ data: blogData }) => {
                 <Link
                   className="t-btn t-btn-circle"
                   href={blogData?.button?.href || "#"}
+                  aria-label={blogData?.button?.text || "Explore Blog"}
                 >
                   <i className={blogData?.button?.iconClass}></i>
                 </Link>
@@ -36,6 +38,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ data: blogData }) => {
                 <Link
                   className="t-btn t-btn-circle"
                   href={blogData?.button?.href || "#"}
+                  aria-label={blogData?.button?.text || "Explore Blog"}
                 >
                   <i className={blogData?.button?.iconClass}></i>
                 </Link>
@@ -55,7 +58,14 @@ const BlogSection: React.FC<BlogSectionProps> = ({ data: blogData }) => {
                 >
                   <div className="thumb">
                     <Link href={blog?.link || "#"}>
-                      <img src={blog?.image} alt="blog image" />
+                      <Image
+                        src={blog?.image}
+                        alt={blog?.title || "blog image"}
+                        width={600}
+                        height={400}
+                        loading="lazy"
+                        style={{ width: "100%", height: "auto" }}
+                      />
                     </Link>
                   </div>
                   <div className="content">

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { AboutData } from "@/constant/AiAgency/about";
 interface AboutProps{
   data:AboutData;
@@ -10,9 +11,13 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
         <div className="about-area-4-inner section-spacing">
           <div className="section-content-wrapper">
             <div className="thumb fade-anim" data-direction="left" suppressHydrationWarning={true}>
-              <img
+              <Image
                 src={aboutData?.image}
                 alt={aboutData?.imageAlt || "About Image"}
+                width={620}
+                height={520}
+                loading="lazy"
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
             <div className="section-content">
@@ -46,6 +51,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                   <Link
                     className="t-btn t-btn-circle"
                     href={aboutData?.aboutLink || "#"}
+                    aria-label={aboutData?.buttonText || "About Agency"}
                   >
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
@@ -58,6 +64,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                   <Link
                     className="t-btn t-btn-circle"
                     href={aboutData?.aboutLink || "#"}
+                    aria-label={aboutData?.buttonText || "About Agency"}
                   >
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>

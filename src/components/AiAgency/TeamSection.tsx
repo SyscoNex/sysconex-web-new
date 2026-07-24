@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { teamSectionContent, teamMembers, TeamMember } from "@/constant/AiAgency/team";
 import React from "react";
 
@@ -29,6 +30,7 @@ const TeamSection: React.FC = () => {
                 <Link
                   className="t-btn t-btn-circle"
                   href={teamSectionContent?.exploreLink || "#"}
+                  aria-label="Explore More Team Members"
                 >
                   <i className="fa-solid fa-arrow-right"></i>
                 </Link>
@@ -41,6 +43,7 @@ const TeamSection: React.FC = () => {
                 <Link
                   className="t-btn t-btn-circle"
                   href={teamSectionContent?.exploreLink || "#"}
+                  aria-label="Explore More Team Members"
                 >
                   <i className="fa-solid fa-arrow-right"></i>
                 </Link>
@@ -59,9 +62,12 @@ const TeamSection: React.FC = () => {
                   suppressHydrationWarning={true}
                 >
                   <div className="thumb">
-                    <img
+                    <Image
                       src={member?.image}
                       alt={member?.name || "Team Member"}
+                      width={400}
+                      height={400}
+                      loading="lazy"
                       style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover' }}
                     />
                   </div>
@@ -73,16 +79,16 @@ const TeamSection: React.FC = () => {
                     <div className="links-holder">
                       <i className="fa-solid fa-share-nodes"></i>
                       <div className="social-links">
-                        <a href={member?.socials?.instagram} target="_blank">
+                        <a href={member?.socials?.instagram} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on Instagram`}>
                           <i className="fa-brands fa-instagram"></i>
                         </a>
-                        <a href={member?.socials?.twitter} target="_blank">
+                        <a href={member?.socials?.twitter} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on Twitter`}>
                           <i className="fa-brands fa-twitter"></i>
                         </a>
-                        <a href={member?.socials?.facebook} target="_blank">
+                        <a href={member?.socials?.facebook} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on Facebook`}>
                           <i className="fa-brands fa-facebook-f"></i>
                         </a>
-                        <a href={member?.socials?.linkedin} target="_blank">
+                        <a href={member?.socials?.linkedin} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on LinkedIn`}>
                           <i className="fa-brands fa-linkedin-in"></i>
                         </a>
                       </div>
