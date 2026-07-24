@@ -44,6 +44,7 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                   alt={aboutTwoData?.thumb1?.alt2 || "main image"}
                   width={500}
                   height={600}
+                  sizes="(max-width: 768px) 100vw, 500px"
                   loading="lazy"
                   style={{ width: "100%", height: "auto" }}
                 />
@@ -88,11 +89,12 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
 
               {/* Video background (optional) */}
               <div className="video">
-                <video loop muted autoPlay playsInline>
+                <video loop muted preload="metadata" playsInline aria-label="Sysconex intro video">
                   <source
                     src={aboutTwoData?.thumb2?.videoLink}
                     type="video/mp4"
                   />
+                  <track kind="captions" srcLang="en" label="English" />
                 </video>
               </div>
             </div>
@@ -108,6 +110,7 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                   alt={aboutTwoData?.thumb3?.alt || "shape"}
                   width={500}
                   height={600}
+                  sizes="(max-width: 768px) 100vw, 500px"
                   loading="lazy"
                   style={{ width: "100%", height: "auto" }}
                 />

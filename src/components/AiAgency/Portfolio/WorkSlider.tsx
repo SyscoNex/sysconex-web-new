@@ -158,7 +158,7 @@ const WorkSlider = ({ work = defaultWork }: WorkSliderProps) => {
             <i className="fa-solid fa-arrow-left"></i>
           </div>
           <div className="work-button-next slide-nav-button" role="button">
-            <i className="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
           </div>
         </div>
         <div className="btn-wrapper fade-anim">
@@ -167,7 +167,7 @@ const WorkSlider = ({ work = defaultWork }: WorkSliderProps) => {
               className="t-btn t-btn-circle"
               href={work?.viewAllLink || "#"}
             >
-              <i className="fa-solid fa-arrow-right"></i>
+              <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </Link>
             <Link
               className="t-btn t-btn-primary"
@@ -179,7 +179,7 @@ const WorkSlider = ({ work = defaultWork }: WorkSliderProps) => {
               className="t-btn t-btn-circle"
               href={work?.viewAllLink || "#"}
             >
-              <i className="fa-solid fa-arrow-right"></i>
+              <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </Link>
           </div>
         </div>

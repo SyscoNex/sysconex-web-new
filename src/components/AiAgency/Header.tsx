@@ -110,7 +110,7 @@ const Header: React.FC = () => {
                   onClick={handleSidebar}
                   aria-label="Toggle Sidebar"
                 >
-                  <img src="/assets/imgs/icon/icon-4.webp" alt="Toggle" />
+                  <Image src="/assets/imgs/icon/icon-4.webp" alt="Toggle" width={30} height={30} />
                 </button>
               </div>
             </div>

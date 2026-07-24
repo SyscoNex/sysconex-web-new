@@ -130,11 +130,11 @@ const ContactSection: React.FC<ContactProps> = ({ data: contactData }) => {
                   <div className="submit-btn">
                     <button type="submit" className="t-btn t-btn-group">
                       <span className="t-btn t-btn-circle">
-                        <i className="fa-solid fa-arrow-right"></i>
+                        <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                       </span>
                       <span className="t-btn t-btn-primary">{buttonText}</span>
                       <span className="t-btn t-btn-circle">
-                        <i className="fa-solid fa-arrow-right"></i>
+                        <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                       </span>
                     </button>
                   </div>

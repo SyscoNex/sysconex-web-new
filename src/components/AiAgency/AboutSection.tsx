@@ -16,6 +16,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                 alt={aboutData?.imageAlt || "About Image"}
                 width={620}
                 height={520}
+                sizes="(max-width: 768px) 100vw, 620px"
                 loading="lazy"
                 style={{ width: "100%", height: "auto" }}
               />
@@ -53,7 +54,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                     href={aboutData?.aboutLink || "#"}
                     aria-label={aboutData?.buttonText || "About Agency"}
                   >
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                   </Link>
                   <Link
                     className="t-btn t-btn-primary"
@@ -66,7 +67,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                     href={aboutData?.aboutLink || "#"}
                     aria-label={aboutData?.buttonText || "About Agency"}
                   >
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                   </Link>
                 </div>
               </div>

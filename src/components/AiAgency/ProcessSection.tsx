@@ -54,11 +54,12 @@ const ProcessSection: React.FC<ProcessSectionProps> = ({type, data: processData 
 
           {/* Video Section */}
           <div className="section-thumb fade-anim" data-direction="right" suppressHydrationWarning={true}>
-            <video loop muted autoPlay playsInline>
+            <video loop muted autoPlay playsInline aria-label="How we work process video">
               <source
                 src={processData?.videoUrl || "/videos/how_we_work.mp4"}
                 type="video/mp4"
               />
+              <track kind="captions" srcLang="en" label="English" />
             </video>
           </div>
         </div>

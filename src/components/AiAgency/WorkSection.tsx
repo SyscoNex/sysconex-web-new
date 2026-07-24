@@ -45,7 +45,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                       href={workSectionContent?.exploreLink || "#"}
                       aria-label="Explore More Portfolio"
                     >
-                      <i className="fa-solid fa-arrow-right"></i>
+                      <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                     </Link>
                     <Link
                       className="t-btn t-btn-primary"
@@ -58,7 +58,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                       href={workSectionContent?.exploreLink || "#"}
                       aria-label="Explore More Portfolio"
                     >
-                      <i className="fa-solid fa-arrow-right"></i>
+                      <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                     </Link>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                         href={`/portfolio/${item?.slug}`}
                         aria-label={`View full project: ${item?.title}`}
                       >
-                        <i className="fa-solid fa-arrow-right"></i>
+                        <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                       </Link>
                       <Link
                         className="t-btn t-btn-primary"
@@ -120,7 +120,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                         href={`/portfolio/${item?.slug}`}
                         aria-label={`View full project: ${item?.title}`}
                       >
-                        <i className="fa-solid fa-arrow-right"></i>
+                        <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                       </Link>
                     </div>
                   </div>

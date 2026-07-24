@@ -54,12 +54,12 @@ const serviceData: IServiceData = {
   ],
   gallery: [
     {
-      src: "/assets/imgs/gallery/image-52.webp",
-      alt: "Gallery Image 1",
+      src: "/assets/imgs/gallery/service_gallery_1.png",
+      alt: "Sysconex team collaborating on digital solutions",
     },
     {
-      src: "/assets/imgs/gallery/image-53.webp",
-      alt: "Gallery Image 2",
+      src: "/assets/imgs/gallery/service_gallery_2.png",
+      alt: "Modern web design and development showcase",
     },
   ],
 };

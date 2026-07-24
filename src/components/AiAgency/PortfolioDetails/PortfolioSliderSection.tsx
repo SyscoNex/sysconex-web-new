@@ -28,7 +28,7 @@ const PortfolioSliderSection: React.FC<IPortfolioSliderProps> = ({
                 <i className="fa-solid fa-arrow-left"></i>
               </div>
               <div className="work-button-next slide-nav-button" role="button">
-                <i className="fa-solid fa-arrow-right"></i>
+                <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
               </div>
             </div>
           </div>

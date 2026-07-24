@@ -29,7 +29,7 @@ const ServiceSection: React.FC = () => {
                   href={serviceSectionData?.exploreLink || "#"}
                   aria-label="Explore More Services"
                 >
-                  <i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                 </Link>
                 <Link
                   className="t-btn t-btn-primary"
@@ -42,7 +42,7 @@ const ServiceSection: React.FC = () => {
                   href={serviceSectionData?.exploreLink || "#"}
                   aria-label="Explore More Services"
                 >
-                  <i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                 </Link>
               </div>
             </div>
@@ -92,7 +92,7 @@ const ServiceSection: React.FC = () => {
                               href={`/services/${service?.slug}`}
                               aria-label={`View details: ${service?.title}`}
                             >
-                              <i className="fa-solid fa-arrow-right"></i>
+                              <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                             </Link>
                             <Link
                               className="t-btn t-btn-primary"
@@ -105,7 +105,7 @@ const ServiceSection: React.FC = () => {
                               href={`/services/${service?.slug}`}
                               aria-label={`View details: ${service?.title}`}
                             >
-                              <i className="fa-solid fa-arrow-right"></i>
+                              <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                             </Link>
                           </div>
                         </div>
