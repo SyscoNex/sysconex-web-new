@@ -20,6 +20,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
             alt="bg"
             fill
             priority={true}
+            fetchPriority="high"
             style={{ objectFit: "cover" }}
             sizes="100vw"
             quality={85}

@@ -8,14 +8,14 @@ const TeamSection: React.FC = () => {
     <section className="team-area-4">
       <div className="container">
         <div className="team-area-4-inner section-spacing">
-          <div className="section-content move-anim" suppressHydrationWarning={true}>
+          <div className="section-content" suppressHydrationWarning={true}>
             <div className="section-title-wrapper">
               <div className="subtitle-wrapper">
                 <span className="section-subtitle">
                   {teamSectionContent?.subtitle}
                 </span>
               </div>
-              <div className="title-wrapper">
+              <div className="title-wrapper move-anim" suppressHydrationWarning={true}>
                 <h2 className="section-title">{teamSectionContent?.title}</h2>
               </div>
             </div>
