@@ -402,22 +402,20 @@ const useGSAPAnimations = (): void => {
               const mm = gsap.matchMedia();
 
               mm.add("(min-width: 991px)", () => {
-                const tl: gsap.core.Timeline = gsap.timeline();
                 const scaleItems: NodeListOf<Element> =
                   document.querySelectorAll(".work-panel");
-
                 scaleItems.forEach((item: Element) => {
-                  tl.to(item, {
-                    scrollTrigger: {
-                      trigger: item,
-                      pin: item,
-                      scrub: 1,
-                      start: "top 10%",
-                      end: "bottom 90%",
-                      endTrigger: ".work-area-4",
-                      pinSpacing: false,
-                      markers: false,
+                  ScrollTrigger.create({
+                    trigger: item,
+                    pin: item,
+                    start: () => {
+                      return (item as HTMLElement).offsetHeight > window.innerHeight * 0.85 
+                        ? "bottom 95%" 
+                        : "top 10%";
                     },
+                    endTrigger: ".work-area-4",
+                    end: "bottom 95%",
+                    pinSpacing: false,
                   });
                 });
               });
@@ -429,7 +427,6 @@ const useGSAPAnimations = (): void => {
               const mm = gsap.matchMedia();
 
               mm.add("(min-width: 991px)", () => {
-                const tl: gsap.core.Timeline = gsap.timeline();
                 const scaleItems: NodeListOf<Element> =
                   document.querySelectorAll(".portfolio-panel");
 
@@ -438,18 +435,17 @@ const useGSAPAnimations = (): void => {
                 });
 
                 scaleItems.forEach((item: Element) => {
-                  tl.to(item, {
-                    scale: 0.8,
-                    scrollTrigger: {
-                      trigger: item,
-                      pin: item,
-                      scrub: 1,
-                      start: "top 10%",
-                      end: "bottom 90%",
-                      endTrigger: ".work-area-3",
-                      pinSpacing: false,
-                      markers: false,
+                  ScrollTrigger.create({
+                    trigger: item,
+                    pin: item,
+                    start: () => {
+                      return (item as HTMLElement).offsetHeight > window.innerHeight * 0.85 
+                        ? "bottom 95%" 
+                        : "top 10%";
                     },
+                    endTrigger: ".work-area-3",
+                    end: "bottom 95%",
+                    pinSpacing: false,
                   });
                 });
               });

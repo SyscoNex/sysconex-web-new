@@ -55,7 +55,7 @@ const FooterOne = () => {
                     width={200}
                     height={120}
                     loading="lazy"
-                    style={{ maxHeight: "120px", width: "auto" }}
+                    style={{ maxHeight: "120px", width: "auto", height: "auto" }}
                   />
                 </Link>
               </div>
