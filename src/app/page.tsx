@@ -52,23 +52,27 @@ import blogData from "@/constant/AiAgency/blog";
 
 
 
+import ClientOnly from "@/components/ClientOnly";
+
 const Home = (): ReactElement => {
   return (
     <div className="body-wrapper body-ai-agency">
       <Header />
       <SmoothScroll>
-        <main>
-          <HeroSection data={heroData}/>
-          <TextSliderSection data={textSliderData}/>
-          <AboutTwoSection data={aboutTwoData}/>
-          <AboutSection data={aboutData}/>
-          <ServiceSection />
-          <WorkSection />
-          <TeamSection />
-          <ProcessSection data={processData}/>
-          <TestimonialSlider data={testimonialData}/>
-          <BlogSection data={blogData}/>
-        </main>
+        <ClientOnly>
+          <main>
+            <HeroSection data={heroData}/>
+            <TextSliderSection data={textSliderData}/>
+            <AboutTwoSection data={aboutTwoData}/>
+            <AboutSection data={aboutData}/>
+            <ServiceSection />
+            <WorkSection />
+            <TeamSection />
+            <ProcessSection data={processData}/>
+            <TestimonialSlider data={testimonialData}/>
+            <BlogSection data={blogData}/>
+          </main>
+        </ClientOnly>
         <Footer />
       </SmoothScroll>
     </div>
