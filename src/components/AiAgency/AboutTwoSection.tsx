@@ -88,11 +88,12 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
 
               {/* Video background (optional) */}
               <div className="video">
-                <video loop muted autoPlay playsInline>
+                <video loop muted autoPlay playsInline aria-label="Sysconex intro video">
                   <source
                     src={aboutTwoData?.thumb2?.videoLink}
                     type="video/mp4"
                   />
+                  <track kind="captions" srcLang="en" label="English" />
                 </video>
               </div>
             </div>

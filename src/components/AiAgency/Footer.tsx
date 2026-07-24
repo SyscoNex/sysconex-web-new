@@ -94,7 +94,7 @@ const FooterOne = () => {
                     rel="noopener noreferrer"
                     aria-label="Visit Sysconex on Facebook"
                   >
-                    <i className="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook-f" aria-hidden="true"></i>
                   </Link>
                   <Link
                     href="https://lk.linkedin.com/company/sysconex-solutions"
@@ -102,7 +102,7 @@ const FooterOne = () => {
                     rel="noopener noreferrer"
                     aria-label="Visit Sysconex on LinkedIn"
                   >
-                    <i className="fa-brands fa-linkedin-in"></i>
+                    <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>
                   </Link>
                 </div>
               </div>

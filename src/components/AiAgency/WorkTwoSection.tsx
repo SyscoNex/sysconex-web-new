@@ -115,7 +115,7 @@ const WorkSection: React.FC<WorkProps> = ({
                           className="t-btn t-btn-circle"
                           href={`/portfolio/${item?.slug}`}
                         >
-                          <i className="fa-solid fa-arrow-right"></i>
+                          <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                         </Link>
                         <Link
                           className="t-btn t-btn-primary"
@@ -127,7 +127,7 @@ const WorkSection: React.FC<WorkProps> = ({
                           className="t-btn t-btn-circle"
                           href={`/portfolio/${item?.slug}`}
                         >
-                          <i className="fa-solid fa-arrow-right"></i>
+                          <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                         </Link>
                       </div>
                     </div>
@@ -190,7 +190,7 @@ const WorkSection: React.FC<WorkProps> = ({
                     className="t-btn t-btn-circle"
                     href={workData?.viewAllLink || "#"}
                   >
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                   </Link>
                   <Link
                     className="t-btn t-btn-primary"
@@ -202,7 +202,7 @@ const WorkSection: React.FC<WorkProps> = ({
                     className="t-btn t-btn-circle"
                     href={workData?.viewAllLink || "#"}
                   >
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                   </Link>
                 </div>
               </div>
@@ -244,7 +244,7 @@ const WorkSection: React.FC<WorkProps> = ({
                           className="t-btn t-btn-circle"
                           href={`/portfolio/${item?.slug}`}
                         >
-                          <i className="fa-solid fa-arrow-right"></i>
+                          <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                         </Link>
                         <Link
                           className="t-btn t-btn-primary"
@@ -256,7 +256,7 @@ const WorkSection: React.FC<WorkProps> = ({
                           className="t-btn t-btn-circle"
                           href={`/portfolio/${item?.slug}`}
                         >
-                          <i className="fa-solid fa-arrow-right"></i>
+                          <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                         </Link>
                       </div>
                     </div>

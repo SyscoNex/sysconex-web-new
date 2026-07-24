@@ -34,7 +34,7 @@ const Sidebar = ({
                 onClick={handleSidebar}
                 aria-label="Close sidebar"
               >
-                <i className={sidebarData.closeIcon}></i>
+                <i className={sidebarData.closeIcon} aria-hidden="true"></i>
               </button>
             </div>
 
@@ -53,7 +53,7 @@ const Sidebar = ({
                   href={sidebarData?.cta?.href}
                   aria-label={sidebarData?.cta?.text || "Contact Us"}
                 >
-                  <i className={sidebarData?.ctaIcon}></i>
+                  <i className={sidebarData?.ctaIcon} aria-hidden="true"></i>
                 </Link>
                 <Link
                   className="t-btn t-btn-primary"
@@ -66,7 +66,7 @@ const Sidebar = ({
                   href={sidebarData?.cta?.href}
                   aria-label={sidebarData?.cta?.text || "Contact Us"}
                 >
-                  <i className={sidebarData?.ctaIcon}></i>
+                  <i className={sidebarData?.ctaIcon} aria-hidden="true"></i>
                 </Link>
               </div>
 

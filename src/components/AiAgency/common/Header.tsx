@@ -132,7 +132,7 @@ const Header: React.FC = () => {
                     href={headerData?.cta?.href}
                     className="t-btn t-btn-circle"
                   >
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                   </Link>
                   <Link
                     href={headerData?.cta?.href}
@@ -144,7 +144,7 @@ const Header: React.FC = () => {
                     href={headerData?.cta?.href}
                     className="t-btn t-btn-circle"
                   >
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                   </Link>
                 </div>
               </div>

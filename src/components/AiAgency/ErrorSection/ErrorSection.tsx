@@ -16,13 +16,13 @@ const ErrorSection: React.FC = () => {
             </p>
             <div className="t-btn-group mt-4">
               <Link className="t-btn t-btn-circle" href="/">
-                <i className="fa-solid fa-arrow-right"></i>
+                <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
               </Link>
               <Link className="t-btn t-btn-primary" href="/">
                 Go Back Home
               </Link>
               <Link className="t-btn t-btn-circle" href="/">
-                <i className="fa-solid fa-arrow-right"></i>
+                <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
               </Link>
             </div>
           </div>

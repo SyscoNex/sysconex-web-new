@@ -32,7 +32,7 @@ const TeamSection: React.FC = () => {
                   href={teamSectionContent?.exploreLink || "#"}
                   aria-label="Explore More Team Members"
                 >
-                  <i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                 </Link>
                 <Link
                   className="t-btn t-btn-primary"
@@ -45,7 +45,7 @@ const TeamSection: React.FC = () => {
                   href={teamSectionContent?.exploreLink || "#"}
                   aria-label="Explore More Team Members"
                 >
-                  <i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                 </Link>
               </div>
             </div>
@@ -77,19 +77,19 @@ const TeamSection: React.FC = () => {
                   </div>
                   <div className="social-links-wrapper">
                     <div className="links-holder">
-                      <i className="fa-solid fa-share-nodes"></i>
+                      <i className="fa-solid fa-share-nodes" aria-hidden="true"></i>
                       <div className="social-links">
                         <a href={member?.socials?.instagram} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on Instagram`}>
-                          <i className="fa-brands fa-instagram"></i>
+                          <i className="fa-brands fa-instagram" aria-hidden="true"></i>
                         </a>
                         <a href={member?.socials?.twitter} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on Twitter`}>
-                          <i className="fa-brands fa-twitter"></i>
+                          <i className="fa-brands fa-twitter" aria-hidden="true"></i>
                         </a>
                         <a href={member?.socials?.facebook} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on Facebook`}>
-                          <i className="fa-brands fa-facebook-f"></i>
+                          <i className="fa-brands fa-facebook-f" aria-hidden="true"></i>
                         </a>
                         <a href={member?.socials?.linkedin} target="_blank" rel="noopener noreferrer" aria-label={`${member?.name} on LinkedIn`}>
-                          <i className="fa-brands fa-linkedin-in"></i>
+                          <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>
                         </a>
                       </div>
                     </div>

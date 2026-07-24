@@ -210,7 +210,7 @@ export const servicesData: Service[] = [
     ],
     gallery: [
       { src: "/assets/imgs/gallery/ai_research_gallery_1.png", alt: "AI Research 1" },
-      { src: "/assets/imgs/gallery/image-31.webp", alt: "AI Research 2" },
+      { src: "/assets/imgs/gallery/ai_research_gallery_2.png", alt: "AI neural network visualization" },
     ],
     solutionSubtitle: "Solution Approach",
     solutionTitle: "Intelligence built into software",
