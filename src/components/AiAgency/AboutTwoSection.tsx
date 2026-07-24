@@ -4,6 +4,7 @@ import { createPortal } from "react-dom";
 import { useEffect, useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import Video from "yet-another-react-lightbox/plugins/video";
+import Image from "next/image";
 import { AboutTwoData } from "@/constant/AiAgency/about2";
 
 interface AboutTwoSectionProps {
@@ -28,15 +29,23 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
             {/* Thumb 1 */}
             <div className="thumb thumb-1">
               <div className="shape-1">
-                <img
+                <Image
                   src={aboutTwoData?.thumb1?.shape1}
                   alt={aboutTwoData?.thumb1?.alt1 || "shape"}
+                  width={300}
+                  height={300}
+                  loading="lazy"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
               <div className="image img_anim_reveal" suppressHydrationWarning={true}>
-                <img
+                <Image
                   src={aboutTwoData?.thumb1?.image}
                   alt={aboutTwoData?.thumb1?.alt2 || "main image"}
+                  width={500}
+                  height={600}
+                  loading="lazy"
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
@@ -45,9 +54,13 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
             <div className="thumb thumb-2">
               {aboutTwoData?.thumb2?.logo && (
                 <div className="shape-1">
-                  <img
+                  <Image
                     src={aboutTwoData?.thumb2?.logo}
                     alt={aboutTwoData?.thumb2?.logoAlt || "logo"}
+                    width={120}
+                    height={60}
+                    loading="lazy"
+                    style={{ width: "auto", height: "auto" }}
                   />
                 </div>
               )}
@@ -59,9 +72,13 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                   onClick={() => setOpen(true)}
                   aria-label="Play Video"
                 >
-                  <img
+                  <Image
                     src={aboutTwoData?.thumb2?.icon}
                     alt={aboutTwoData?.thumb2?.iconAlt || "play icon"}
+                    width={60}
+                    height={60}
+                    loading="lazy"
+                    style={{ width: "auto", height: "auto" }}
                   />
                   <span className="text">
                     {aboutTwoData?.thumb2?.text || "Play intro video"}
@@ -86,9 +103,13 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                 {aboutTwoData?.thumb3?.brandText}
               </span>
               <div className="image img_anim_reveal" suppressHydrationWarning={true}>
-                <img
+                <Image
                   src={aboutTwoData?.thumb3?.image}
                   alt={aboutTwoData?.thumb3?.alt || "shape"}
+                  width={500}
+                  height={600}
+                  loading="lazy"
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>

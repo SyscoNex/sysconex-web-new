@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   workSectionContent,
   portfolioItems,
@@ -42,6 +43,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                     <Link
                       className="t-btn t-btn-circle"
                       href={workSectionContent?.exploreLink || "#"}
+                      aria-label="Explore More Portfolio"
                     >
                       <i className="fa-solid fa-arrow-right"></i>
                     </Link>
@@ -54,6 +56,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                     <Link
                       className="t-btn t-btn-circle"
                       href={workSectionContent?.exploreLink || "#"}
+                      aria-label="Explore More Portfolio"
                     >
                       <i className="fa-solid fa-arrow-right"></i>
                     </Link>
@@ -82,10 +85,13 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                         </span>
                       ))}
                     </div>
-                    <img
+                    <Image
                       src={item?.image}
                       alt={item?.title || "Portfolio Image"}
-                      style={{ width: '1230px', height: '380px', objectFit: 'cover' }}
+                      width={1230}
+                      height={380}
+                      loading="lazy"
+                      style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
                     />
                   </div>
 
@@ -99,6 +105,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                       <Link
                         className="t-btn t-btn-circle"
                         href={`/portfolio/${item?.slug}`}
+                        aria-label={`View full project: ${item?.title}`}
                       >
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
@@ -111,6 +118,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                       <Link
                         className="t-btn t-btn-circle"
                         href={`/portfolio/${item?.slug}`}
+                        aria-label={`View full project: ${item?.title}`}
                       >
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>

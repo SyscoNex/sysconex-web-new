@@ -1,15 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const FooterOne = () => {
   return (
     <footer className="footer-area-3">
       <div className="area-shape-1">
-        <img src="/assets/imgs/shape/shape-44.webp" alt="image" />
+        <Image src="/assets/imgs/shape/shape-44.webp" alt="footer shape" width={300} height={300} loading="lazy" style={{ width: 'auto', height: 'auto' }} />
       </div>
       <div className="area-shape-2">
-        <img src="/assets/imgs/shape/shape-44.webp" alt="image" />
+        <Image src="/assets/imgs/shape/shape-44.webp" alt="footer shape" width={300} height={300} loading="lazy" style={{ width: 'auto', height: 'auto' }} />
       </div>
       <div className="cta-area-2">
         <div className="container">
@@ -48,9 +49,12 @@ const FooterOne = () => {
             <div className="footer-widget-box" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "30px", marginBottom: "20px" }}>
               <div className="footer-logo">
                 <Link href="/">
-                  <img
+                  <Image
                     src="/assets/images/logo_white.png"
-                    alt="site logo"
+                    alt="Sysconex logo"
+                    width={200}
+                    height={120}
+                    loading="lazy"
                     style={{ maxHeight: "120px", width: "auto" }}
                   />
                 </Link>
@@ -84,10 +88,20 @@ const FooterOne = () => {
                   </p>
                 </div>
                 <div className="social-links">
-                  <Link href="https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/">
+                  <Link
+                    href="https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit Sysconex on Facebook"
+                  >
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link>
-                  <Link href="https://lk.linkedin.com/company/sysconex-solutions">
+                  <Link
+                    href="https://lk.linkedin.com/company/sysconex-solutions"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit Sysconex on LinkedIn"
+                  >
                     <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
                 </div>

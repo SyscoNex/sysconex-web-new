@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Sidebar from "@/components/AiAgency/SideBar/SideBar";
 import Link from "next/link";
+import Image from "next/image";
 import useStickyHeader from "@/Hook/useStickyHeader";
 
 // --- TYPE DEFINITIONS ---
@@ -74,10 +75,13 @@ const Header: React.FC = () => {
             <div className="header-area-4-inner">
               <div className="header-logo">
                 <Link href={headerData?.logo?.href}>
-                  <img
+                  <Image
                     src={headerData?.logo?.src}
                     alt={headerData?.logo?.alt}
                     className="normal-logo"
+                    width={180}
+                    height={60}
+                    priority={true}
                     style={{ maxHeight: "60px", width: "auto" }}
                   />
                 </Link>

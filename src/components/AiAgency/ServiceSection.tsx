@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { Tab, Nav, Container } from "react-bootstrap";
 import { serviceSectionData, servicesData, Service } from "@/constant/AiAgency/service";
 
@@ -26,6 +27,7 @@ const ServiceSection: React.FC = () => {
                 <Link
                   className="t-btn t-btn-circle"
                   href={serviceSectionData?.exploreLink || "#"}
+                  aria-label="Explore More Services"
                 >
                   <i className="fa-solid fa-arrow-right"></i>
                 </Link>
@@ -38,6 +40,7 @@ const ServiceSection: React.FC = () => {
                 <Link
                   className="t-btn t-btn-circle"
                   href={serviceSectionData?.exploreLink || "#"}
+                  aria-label="Explore More Services"
                 >
                   <i className="fa-solid fa-arrow-right"></i>
                 </Link>
@@ -71,10 +74,13 @@ const ServiceSection: React.FC = () => {
                     <Tab.Pane key={service?.slug} eventKey={service?.slug}>
                       <div className="service-box-4">
                         <div className="thumb">
-                          <img
+                          <Image
                             src={service?.image}
                             alt={service?.title || "Service image"}
-                            style={{ width: '600px', height: '354px', objectFit: 'cover' }}
+                            width={600}
+                            height={354}
+                            loading="lazy"
+                            style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
                           />
                         </div>
                         <div className="content">
@@ -84,6 +90,7 @@ const ServiceSection: React.FC = () => {
                             <Link
                               className="t-btn t-btn-circle"
                               href={`/services/${service?.slug}`}
+                              aria-label={`View details: ${service?.title}`}
                             >
                               <i className="fa-solid fa-arrow-right"></i>
                             </Link>
@@ -96,6 +103,7 @@ const ServiceSection: React.FC = () => {
                             <Link
                               className="t-btn t-btn-circle"
                               href={`/services/${service?.slug}`}
+                              aria-label={`View details: ${service?.title}`}
                             >
                               <i className="fa-solid fa-arrow-right"></i>
                             </Link>
