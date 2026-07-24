@@ -1,1 +1,1 @@
-https://github.com/hasanmasudnet/averto-next.git
+https://github.com/hasanmasudnet/averto-next.git 
