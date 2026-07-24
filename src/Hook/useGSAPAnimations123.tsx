@@ -86,9 +86,12 @@ const useGSAPAnimations = (): void => {
   const pathname = usePathname();
   const [isClient, setIsClient] = useState(false);
 
-  // Only run on client side after hydration is complete
+  // Only run on client side after hydration is 100% complete
   useEffect(() => {
-    setIsClient(true);
+    const timer = setTimeout(() => {
+      setIsClient(true);
+    }, 50);
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -396,6 +399,10 @@ const useGSAPAnimations = (): void => {
                   toggleActions: "play none none none",
                 },
               });
+
+              if (!splitTextLine.getAttribute("role")) {
+                splitTextLine.setAttribute("role", "region");
+              }
 
               const itemSplitted = new SplitText(splitTextLine as Element, {
                 type: "lines",

@@ -154,10 +154,10 @@ const WorkSlider = ({ work = defaultWork }: WorkSliderProps) => {
       <div className="work-pagination fade-anim"></div>
       <div className="slide-nav-wrapper">
         <div className="slide-nav fade-anim">
-          <div className="work-button-prev slide-nav-button" role="button">
-            <i className="fa-solid fa-arrow-left"></i>
+          <div className="work-button-prev slide-nav-button" role="button" aria-label="Previous portfolio project">
+            <i className="fa-solid fa-arrow-left" aria-hidden="true"></i>
           </div>
-          <div className="work-button-next slide-nav-button" role="button">
+          <div className="work-button-next slide-nav-button" role="button" aria-label="Next portfolio project">
             <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
           </div>
         </div>

@@ -46,6 +46,7 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                   height={600}
                   sizes="(max-width: 768px) 100vw, 500px"
                   loading="lazy"
+                  suppressHydrationWarning={true}
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>
@@ -112,6 +113,7 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                   height={600}
                   sizes="(max-width: 768px) 100vw, 500px"
                   loading="lazy"
+                  suppressHydrationWarning={true}
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>

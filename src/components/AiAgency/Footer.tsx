@@ -18,14 +18,14 @@ const FooterOne = () => {
             <Link href="/contact">
               <div className="section-header">
                 <div className="section-title-wrapper">
-                  <div className="title-wrapper fade-anim">
+                  <div className="title-wrapper fade-anim" suppressHydrationWarning={true}>
                     <h2 className="section-title">
                       Sounds like a fit? <br />
                       Let’s connect!
                     </h2>
                   </div>
                 </div>
-                <div className="btn-wrapper fade-anim">
+                <div className="btn-wrapper fade-anim" suppressHydrationWarning={true}>
                   <svg
                     className="icon"
                     viewBox="0 0 137 136"
@@ -114,7 +114,7 @@ const FooterOne = () => {
         <div className="container">
           <div className="copyright-area-inner">
             <div className="copyright-text">
-              <p className="text">
+              <p className="text" suppressHydrationWarning={true}>
                 &copy; {new Date().getFullYear()} Sysconex. All rights reserved. <br />
               </p>
             </div>
