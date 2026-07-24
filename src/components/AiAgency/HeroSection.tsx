@@ -86,7 +86,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
         {/* Brand Slider */}
         <div className="brand-area-4">
           <div className="container">
-            <div className="brand-area-4-inner section-spacing">
+            <div className="brand-area-4-inner section-spacing-bottom" style={{ paddingTop: '20px' }}>
               <div className="section-header">
                 <div className="section-title-wrapper">
                   <div className="title-wrapper fade-anim" suppressHydrationWarning={true}>
